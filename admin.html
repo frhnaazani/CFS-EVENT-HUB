@@ -89,6 +89,23 @@
         form{
             text-align: center;
         }
+        input, select, textarea {
+            width: 100%;
+            max-width: 500px;
+        }
+        @media (max-width: 600px) {
+        header, footer {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        nav a {
+            display: block;
+            margin: 10px 0;
+        }
+        nav a:hover, button:hover {
+            color: #000;
+            background-color: #f0e68c;
+        }
     </style>
 </head>
 <body>
@@ -140,7 +157,7 @@
                 <br><br>
                 <label for="description">DESCRIPTION:</label>
                 <br><br>
-                <textarea name="desc" id="desc" cols="100 row="5">
+                <textarea name="desc" id="desc" placeholder="Enter event's description..." cols="50" row="5" width=500px></textarea>
                 <br><br>
                 <label for="poster">UPLOAD POSTER:</label>
                 <br><br>
@@ -150,6 +167,19 @@
             </form>
         </section>
     </main>
+    <footer>
+        <div>
+        <p><b>CONTACT US</b></p>
+        <p>TEL NO: 09-87654321</p>
+        <p>EMAIL: cfseventhub@iium.edu.my</p>
+        </div>
+
+        <div>
+            <a href="https://www.instagram.com/">ig</a>
+            <a href="https://www.tiktok.com/">tiktok</a>
+            <a href="https://www.facebook.com/login.php">fb</a>
+        </div>
+    </footer>
     <script>
         const boxbutton= document.getElementById("submit");
         function display(e) {
