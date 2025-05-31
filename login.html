@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        * {
+           margin: 0px;
+           box-sizing: border-box;
+        }     
+        .nav-left, .nav-center, .nav-right {
+            flex: 1 1 0px;
+        }
+        .nav-left nav a{
+            margin-right: 20px;
+            text-decoration: none;
+            color: white;
+            font-size: larger;
+            font-family: serif;
+        }
+        .nav-center {
+            display: flex;
+            justify-content: center;
+            font-family: papyrus;
+        }
+        .nav-right {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+        .nav-right button {
+            width: 180px;
+            background-color: rosybrown;
+            border-radius: 10px;
+            font-family: serif;
+            font-size: large;
+            padding: 5px 15px;
+            border: 2px solid rgb(172, 92, 105);
+        }
+        header{
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 3px 30px;
+            height: 100px;
+            margin-bottom: 25px;
+            background-color: cadetblue;
+        }
+        .login-box{
+            display: flex;
+            margin: 25px auto;
+            padding: 30px;
+            height: 260px;
+            width:260px;
+            background-color: aliceblue;
+            border: 3px solid cadetblue;
+            justify-content: space-between;
+            border-radius: 20px;
+            box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.3);
+        }
+        .login-box h2{
+            text-align: center;
+        }
+        #username{
+            width: 195px;
+            height: 18px;
+            border-radius: 10px;
+            border: 2px solid rgb(185, 210, 212);
+        }
+        #password{
+            width: 195px;
+            height: 18px;
+            border-radius: 10px;
+            border: 2px solid rgb(185, 210, 212);
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+        }
+        .btn button{
+            margin: 10px;
+            padding: 10px;
+            width: 60px;
+            background-color: rgb(181, 218, 218);
+            border: 2px solid rgb(186, 232, 233);
+        }
+        .btn button:hover {
+            background-color: #537474;
+            color: whitesmoke;
+        }
+        body{
+            background-color:rgb(203, 231, 236);
+        }
+        footer{
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: cadetblue;
+            justify-content: space-between;
+        }
+        footer a{
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-left">
+        <nav>
+            <a href="mainpage.html">HOME</a>
+            <a href="mahallah.html">MAHALLAH</a>
+            <a href="clubs.html">CLUB</a>
+            <a href="ABS.html">SOCIETY</a>
+        </nav></div>
+
+        <div class="nav-center">
+            <h1>CFS EVENT HUB</h1>
+        </div>
+
+        <div class="nav-right">
+            <a href="#"><button>ABOUT US</button></a>
+            <a href="login.html"><button>LOGIN</button></a>
+        </div>
+    </header>
+
+    <h2 style="text-align: center;">WELCOME!</h2>
+    
+    <section class="login-box">
+        <form>
+            <h2>LOGIN</h2>
+            <br>
+
+            <label for="username">Username:</label>
+            <br>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+            <label for="password">Password:</label>
+            <br>
+            <input type="password" id="password" name="password" minlength="8" maxlength="10" required>
+            <br><br>
+            
+            <div class="btn">
+                <button>User</button>
+                <button>Admin</button>
+            </div>            
+        </form>
+    </section>
+
+    <img src="images/try.png" alt="try" width="1255" height="350">
+    
+    <footer>
+        <div>
+        <p><b>CONTACT US</b></p>
+        <p>TEL NO: 09-87654321</p>
+        <p>EMAIL: cfseventhub@iium.edu.my</p>
+        </div>
+
+        <div>
+            <a href="https://www.instagram.com/">ig</a>
+            <a href="https://www.tiktok.com/">tiktok</a>
+            <a href="https://www.facebook.com/login.php">fb</a>
+        </div>
+    </footer>
+</body>
+</html>
