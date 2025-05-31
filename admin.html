@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <style>
+        * {
+           margin: 0;
+           padding: 30;
+           box-sizing: border-box; 
+        } 
+        main{
+            padding: 30px;
+        }
+        header{
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background-color: cadetblue;
+            justify-content: space-between;
+            margin: none;
+            height: 100px;
+        }
+        footer{
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background-color: cadetblue;
+            justify-content: space-between;
+            margin: none;
+        }
+        footer a{
+            text-decoration: none;
+        }
+        body{
+            background-color: powderblue;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav a{
+            margin-left: 20px;
+            text-decoration: none;
+            color: white;
+            font-size: larger;
+            
+        }
+        button{
+            background-color: rosybrown;
+            font-size: larger;
+            font-family: serif;
+            border-radius: 10px;
+        }
+        .eventslist{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            justify-content: space-between;
+        }
+        .event-card{
+            background: white;
+            border-radius: 10px;
+            box-sizing: border-box;
+            height: auto;
+            width: auto;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+        .event-card img{
+            width: auto;
+            height: 200px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        #submit {
+            background-color: rosybrown;
+            font-size: larger;
+            font-family: serif;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-family:papyrus;">CFS EVENT HUB</h1>
+        <nav>
+            <a href="mainpage.html">HOME</a>
+            <a href="mahallah.html">MAHALLAH</a>
+            <a href="clubs.html">CLUB</a>
+            <a href="ABS.html">SOCIETY</a>
+            <a href="admin.html">ADMIN</a>
+            <a href="#">ABOUT US</a>
+            <a href="login.html"><button>LOGIN</button></a>
+        </nav>
+    </header>
+    <main>
+        <h1>ADMIN PAGE</h1>
+        <br>
+        <br>
+        <div style="border: 1px solid #030303;background-color: rosybrown; padding: 10px; width: 200px;">
+          ADD NEW EVENT
+        </div>
+        <br>
+        <section>
+            <form>
+                <label for="event">MAHALLAH/CLUB/SOCIETY:</label>
+                <br><br>
+                <select name="event" id="event" style="height: 30px;width: 500px;">
+                    <option value="Mahallah">Mahallah</option>
+                    <option value="Club">Club</option>
+                    <option value="Society">Society</option>
+                </select>
+                <br><br>
+                <label for="Title">EVENT NAME:</label>
+                <br><br>
+                <input type="text" id="name" name="name" placeholder="Enter event's name here..." style="height: 30px;width: 500px;">
+                <br><br>
+                <label for="date">DATE:</label>
+                <br><br>
+                <input type="date" id="date" name="date" style="height: 30px;width:500px;">
+                <br><br>
+                <label for="time">TIME:</label>
+                <br><br>
+                <input type="time" id="time" name="time" style="height: 30px;width:500px;">
+                <br><br>
+                <label for="venue">VENUE:</label>
+                <br><br>
+                <input type="text" id="venue" name="venue" placeholder="Enter event's venue here..." style="height: 30px;width:500px;">
+                <br><br>
+                <label for="description">DESCRIPTION:</label>
+                <br><br>
+                <input type="text" id="desc" name="desc" style="height: 70px;width:500px;">
+                <br><br>
+                <label for="poster">UPLOAD POSTER:</label>
+                <br><br>
+                <input type="file" id="poster" name="poster" style="height: 30px;width:500px;">
+                <br><br>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
