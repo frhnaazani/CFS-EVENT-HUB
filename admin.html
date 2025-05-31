@@ -148,9 +148,9 @@
     </main>
     <script>
         const boxbutton= document.getElementById("submit");
-        function display()
-        {
-            alert("The event has successfully added!");
+        function display(e) {
+        e.preventDefault();
+        alert("The event has successfully added!");
         }
         boxbutton.addEventListener("click",display);
     </script>
