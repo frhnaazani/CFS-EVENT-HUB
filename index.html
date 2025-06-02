@@ -8,19 +8,64 @@
         * {
            margin: 0;
            padding: 30;
-           box-sizing: border-box; 
+          /* box-sizing: border-box; */
         } 
+
+        #banner{
+             display: block;
+             max-width: 100%;
+             height: auto;
+                margin-top: 0 auto;
+        }
+         
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+             margin-right: 20px;
+          /*  font-family: serif;
+            font-size: large;*/
+        }
+        .nav-left nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: white;
+            font-family: serif;
+            font-size: large;
+            align-items: center;
+            gap: 10px;
+        }
+        .nav-center {
+            margin-right: 20px;
+            display: flex;
+            align-items: center;
+            font-family: papyrus;
+            padding-right: 0px;
+        }
+        .nav-right button {
+            width: 180px;
+            background-color: rosybrown;
+            border-radius: 10px;
+            font-family: serif;
+            font-size: large;
+            padding: 5px 15px;
+            border: 2px solid rgb(172, 92, 105);
+            
+        }
+
         main{
             padding: 30px;
         }
-        header{
+       
+         header{
             display: flex;
-            align-items: center;
-            padding: 15px;
-            height: 100px;
-            background-color: cadetblue;
+            flex-wrap: nowrap;
             justify-content: space-between;
-            margin: none;
+            align-items: center;
+            padding: 15px 30px;
+            height: 100px;
+            margin-bottom: 0px;
+            background-color: cadetblue;
         }
         footer{
             display: flex;
@@ -37,7 +82,7 @@
             background-color: powderblue;
             font-family: 'Poppins', sans-serif;
         }
-        nav a{
+       /* nav a{
             margin-left: 20px;
             text-decoration: none;
             color: white;
@@ -49,7 +94,8 @@
             font-size: larger;
             font-family: serif;
             border-radius: 10px;
-        }
+        } */
+
         .eventslist{
             display: flex;
             flex-wrap: wrap;
@@ -59,7 +105,7 @@
             justify-content: space-between;
         }
         .event-card{
-            background: white;
+         /*   background: white;
             border-radius: 10px;
             box-sizing: border-box;
             height: auto;
@@ -69,6 +115,14 @@
             padding-top: 20px;
             padding-bottom: 20px;
             text-align: center;
+             background: white;   */
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      flex: 0 0 calc(33.333% - 20px); /* 3 cards per row */
+      box-sizing: border-box;
+      text-align: center;
+      background-color: white;
         }
         .event-card img{
             width: auto;
@@ -79,22 +133,29 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1 style="font-family:papyrus;">CFS EVENT HUB</h1>
+     <header>
+        <div class="nav-left">
         <nav>
             <a href="index.html">HOME</a>
             <a href="mahallah.html">MAHALLAH</a>
             <a href="clubs.html">CLUB</a>
             <a href="ABS.html">SOCIETY</a>
-            <a href="admin.html">ADMIN</a>
-            <a href="#">ABOUT US</a>
+        </nav></div>
+
+        <div class="nav-center">
+            <h1>CFS EVENT HUB</h1>
+        </div>
+
+        <div class="nav-right">
+            <a href="aboutus.html"><button>ABOUT US</button></a>
             <a href="login.html"><button>LOGIN</button></a>
-        </nav>
+        </div>
     </header>
+    <img id= "banner" src="images/cfs-event-banner.jpg">
 
     <main>
         <section>
-            <h2>ONGOING EVENTS</h2>
+            <h2 style="font-family: 'Inter', sans-serif;">Today's Events </h2>
             <div class="eventslist">
                 <div class="event-card">
                     <img src="images/medcyplaylist.jpeg" alt="medcyplaylist">
@@ -120,7 +181,7 @@
             </div>
         </section>
         <section>
-            <h2>UPCOMING EVENTS</h2>
+            <h2>Tomorrow's Events</h2>
             <div class="eventslist">
                 <div class="event-card">
                     <img src="images/medcyplaylist.jpeg" alt="medcyplaylist">
@@ -146,24 +207,24 @@
             </div>
         </section>
         <section>
-            <h2>PAST EVENTS</h2>
+            <h2>Upcoming Events</h2>
             <div class="eventslist">
                 <div class="event-card">
-                    <img src="images/medcyplaylist.jpeg" alt="medcyplaylist">
+                    <img src="images/demns.jpg" alt="medcyplaylist">
                     <h3>MEDCY PLAYLIST</h3>
                     <p>DATE: 26 APRIL 2025</p>
                     <p>VENUE: EXAM HALL 1</p>
                     <a href="#"><button>DETAILS</button></a>
                 </div>
                 <div class="event-card">
-                    <img src="images/medcyplaylist.jpeg" alt="medcyplaylist">
+                    <img src="images/guardian-earth.jpg" alt="medcyplaylist">
                     <h3>MEDCY PLAYLIST</h3>
                     <p>DATE: 26 APRIL 2025</p>
                     <p>VENUE: EXAM HALL 1</p>
                     <a href="#"><button>DETAILS</button></a>
                 </div>
                 <div class="event-card">
-                    <img src="images/medcyplaylist.jpeg" alt="medcyplaylist">
+                    <img src="images/couch&calb.jpg" alt="medcyplaylist">
                     <h3>MEDCY PLAYLIST</h3>
                     <p>DATE: 26 APRIL 2025</p>
                     <p>VENUE: EXAM HALL 1</p>
