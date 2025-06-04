@@ -4,143 +4,40 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About Us</title>
-  <style>
-    * {
-      margin: 0;
-      box-sizing: border-box;
-    }
-            
-    html, body {
-      background-color: powderblue;
-      /*font-family: 'Poppins', sans-serif;*/
-      /*font-family: 'Montserrat', sans-serif;*/
-      font-family: 'Outfit', sans-serif;
-      height: 100%;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-    }
-    
-    body {
-        flex: 1;
-    }
 
-    main{
-        flex: 1;
-    }
-
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 30px 30px;
-      height: 100px;
-      margin-bottom: 25px;
-      background-color: cadetblue;
-    }
-
-    h2 {
-      text-align: center;
-      margin-top: 20px;
-    }
-
-    .nav-left, .nav-center, .nav-right {
-      flex: 1;
-    }
-
-    .nav-left nav a {
-      margin-right: 20px;
-      text-decoration: none;
-      color: white;
-      font-size: larger;
-      font-family: 'Outfit', sans-serif;
-    }
-
-    .nav-center {
-      display: flex;
-      justify-content: center;
-      font-family: 'Outfit', sans-serif;
-    }
-
-    .nav-right {
-      display: flex;
-      justify-content: flex-end;
-      gap: 10px;
-    }
-
-    .nav-right button {
-      width: 180px;
-      background-color: rgb(212, 254, 255);
-      border-radius: 10px;
-      font-family: 'Outfit', sans-serif;
-      font-size: large;
-      padding: 5px 15px;
-      border: 2px solid rgb(41, 95, 95);
-      cursor: pointer;
-    }
-
-    .profile {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-      margin: 20px 30px;
-    }
-
-    .members {
-      background: white;
-      border-radius: 10px;
-      padding: 20px 40px;
-      text-align: center;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .members img {
-      height: 200px;
-      border-radius: 10px;
-      margin-bottom: 10px;
-      object-fit: cover;
-    }
-
-    footer {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px 30px;
-      background-color: cadetblue;
-    }
-
-    footer a {
-      text-decoration: none;
-      margin-left: 10px;
-    }
-
-    footer img {
-      vertical-align: middle;
-    }
-  </style>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
 
   <header>
     <div class="nav-left">
-      <nav>
-        <a href="index.html">HOME</a>
-        <a href="mahallah.html">MAHALLAH</a>
-        <a href="clubs.html">CLUB</a>
-        <a href="ABS.html">SOCIETY</a>
-      </nav>
+      <nav class="site-menu">
+    <ul class="menu">
+      <li><a href="#">=</a>
+        <ul class="sub-menu">
+          <li><a href="aboutus.html">TEAM</a></li>
+          <li><a href="#">PROFILE</a></li>
+          <li><a href="#">PREFERENCES</a></li>
+          <li><a href="admin.html">ADMIN</a></li>
+          <li><a href="login.html">LOG OUT</a></li>
+        </ul>
+      </li>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="mahallah.html">MAHALLAH</a></li>
+    
+      <li><a href="ABS.html">SOCIETY</a></li>
+      <li><a href="clubs.html">CLUB</a></li>
+    </ul>
+  </nav>
     </div>
-
     <div class="nav-center">
       <h1>CFS EVENT HUB</h1>
     </div>
 
     <div class="nav-right">
-      <a href="aboutus.html"><button>ABOUT US</button></a>
       <a href="login.html"><button>LOGIN</button></a>
     </div>
   </header>
@@ -148,7 +45,7 @@
   <main>
     <h2>MEMBERS</h2>
 
-  <section class="profile">
+  <section class="team">
     <div class="members">
       <img src="images/ishapic.jpg" alt="Nurfarisha">
       <p><b>Name:</b> Nurfarisha</p>
@@ -173,13 +70,13 @@
   </main>
 
   <footer>
-    <div>
-      <p><strong>CONTACT US</strong></p>
-      <p>TEL NO: 09-87654321</p>
+    <p><strong>CONTACT US</strong></p>
+    <div class="footer-left">
+      <p>TEL NO: 09-9202418</p>
       <p>EMAIL: cfseventhub@iium.edu.my</p>
     </div>
 
-    <div class="medsos">
+    <div class="footer-right">
       <a href="https://www.instagram.com/" target="_blank">
         <img src="images/instagram.png" alt="Instagram" width="30" />
       </a>
@@ -190,7 +87,10 @@
         <img src="images/fbpic.png" alt="Facebook" width="30" />
       </a>
     </div>
+    <p class="copyright">© Copyright 2025 CFS Event Hub Sdn Bhd 195901000261 (3609-M). All Rights Reserved</p>
+
   </footer>
+
 
 </body>
 </html>
