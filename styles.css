@@ -114,8 +114,28 @@
       height: 200px;
       border-radius: 10px;
       margin-bottom: 10px;
+    }
 
-      /*object-fit: cover;*/
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin: 20px 30px;
+    }
+
+    .members{
+      background: white;
+      border-radius: 10px;
+      padding: 20px 40px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .members img {
+      height: 200px;
+      border-radius: 10px;
+      margin-bottom: 10px;
     }
 
     footer {
