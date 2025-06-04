@@ -5,185 +5,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAHALLAH</title>
 
-    <style>
-        * {
-           margin: 0px;
-           box-sizing: border-box;
-        } 
-        main{
-            padding: 30px;
-        }
-        header{
-            display: flex;
-            align-items: center;
-            padding: 15px;
-            height: 100px;
-            background-color: cadetblue;
-            justify-content: space-between;
-            margin: none;
-        }
-        footer{
-            display: flex;
-            align-items: center;
-            padding: 15px;
-            background-color: cadetblue;
-            justify-content: space-between;
-            margin: none;
-        }
-        footer a{
-            text-decoration: none;
-        }
-        body{
-            background-color: powderblue;
-            font-family: 'Poppins', sans-serif;
-        }
-        nav a{
-            margin-left: 20px;
-            text-decoration: none;
-            color: white;
-            font-size: larger;
-            
-        }
-        button{
-            background-color: rosybrown;
-            font-size: larger;
-            font-family: serif;
-            border-radius: 10px;
-        }
-        .events-list{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            justify-content: space-between;
-        }
-        .event-card{
-            background: white;
-            border-radius: 10px;
-            box-sizing: border-box;
-            height: auto;
-            width: auto;
-            padding-left: 100px;
-            padding-right: 100px;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            text-align: center;
-        }
-        .event-card img{
-            width: auto;
-            height: 200px;
-            margin-bottom: 10px;
-            border-radius: 10px;
-        }
-        
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+    <script src="details.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1 style="font-family:papyrus;">CFS EVENT HUB</h1>
-        <nav>
-            <a href="index.html">HOME</a>
-            <a href="mahallah.html">MAHALLAH</a>
-            <a href="clubs.html">CLUB</a>
-            <a href="ABS.html">SOCIETY</a>
-            <a href="#">ABOUT US</a>
+        <div class="nav-left">
+            <nav class="site-menu">
+                <ul class="menu">
+                    <li><a href="#">=</a>
+                        <ul class="sub-menu">
+                            <li><a href="aboutus.html">TEAM</a></li>
+                            <li><a href="#">PROFILE</a></li>
+                            <li><a href="#">PREFERENCES</a></li>
+                            <li><a href="admin.html">ADMIN</a></li>
+                            <li><a href="login.html">LOG OUT</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="mahallah.html">MAHALLAH</a></li>
+                    <li><a href="ABS.html">SOCIETY</a></li>
+                    <li><a href="clubs.html">CLUB</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="nav-center">
+            <h1>CFS EVENT HUB</h1>
+        </div>
+        <div class="nav-right">
             <a href="login.html"><button>LOGIN</button></a>
-        </nav>
+        </div>
     </header>
 
     <main>
-        <section>
-            <h2>MAHALLAH UMAMAH</h2>
-            <div class="events-list">
-                <div class="event-card">
-                    <img src="images/MasyitahExplorer.jpg" alt="MasyitahTheExplorer">
-                    <h3>MASYITAH <br> THE EXPLORER</h3>
-                    <p>DATE: 26 April 2025</p>
-                    <p>VENUE: Mahallah Umamah</p>
-                    <a href="#"><button>DETAILS</button></a>
-                </div>
-                <div class="event-card">
-                    <img src="images/Bibimplant.jpg" alt="Bibimplant">
-                    <h3>BIBIMPLANT</h3>
-                    <p>DATE: 17 May 2025</p>
-                    <p>VENUE: Mahallah Umamah</p><br>
-                    <a href="#"><button>DETAILS</button></a>
-                </div>
-                <div class="event-card">
-                    <img src="images/KhatCompetition.jpg" alt="KhatCompetition">
-                    <h3>KHAT COMPETITION</h3>
-                    <p>DATE: 24 May 2025</p>
-                    <p>VENUE: MPR Umamah</p><br>
-                    <a href="#"><button>DETAILS</button></a>
-                </div>
+        <h2>MAHALLAH UMAMAH</h2>
+        <section class="event-list">
+            <div class="event-card">
+                <img src="images/MasyitahExplorer.jpg" alt="Masyitah The Explorer">
+                <h3>MASYITAH THE EXPLORER</h3>
+                <p>DATE: 26 April 2025</p>
+                <p>VENUE: Mahallah Umamah</p>
+                <br>
+                <button id="btn-details" onclick="info()" ><b>DETAILS</b></button>
+            </div>
+            <div class="event-card">
+                <img src="images/Bibimplant.jpg" alt="Bibimplant">
+                <h3>BIBIMPLANT</h3>
+                <p>DATE: 17 May 2025</p>
+                <p>VENUE: Mahallah Umamah</p>
+                <br>
+                <button id="btn-details" onclick="info()" ><b>DETAILS</b></button>
+            </div>
+            <div class="event-card">
+                <img src="images/KhatCompetition.jpg" alt="Khat Competition">
+                <h3>KHAT COMPETITION</h3>
+                <p>DATE: 24 May 2025</p>
+                <p>VENUE: Mahallah Umamah</p>
+                <br>
+                <button id="btn-details" onclick="info()" ><b>DETAILS</b></button>
             </div>
         </section>
-        <section>
-            <h2>MAHALLAH AISYAH</h2>
-            <div class="events-list">
-                <div class="event-card">
-                    <img src="images/Futsal.jpg" alt="FutsalShowdown">
-                    <h3>FUTSAL SHOWDOWN</h3>
-                    <p>DATE:  October 2024</p>
-                    <p>VENUE: Futsal Court</p><br>
-                    <a href="#"><button>DETAILS</button></a>
-                </div>
-                <div class="event-card">
-                    <img src="images/AishahMakeOver.jpg" alt="AishahMakeOver">
-                    <h3>AISHAH MAKE OVER</h3>
-                    <p>DATE: 06 October 2024</p>
-                    <p>VENUE: Bustan Aishah</p><br>
-                    <a href="#"><button>DETAILS</button></a>
-                </div>
-                <div class="event-card">
-                    <img src="images/Basketball.jpg" alt="BasketballTournament">
-                    <h3>BASKETBALL <br>TOURNAMENT</h3>
-                    <p>DATE:  10 May 2025</p>
-                    <p>VENUE: Basketball Court</p>
-                    <a href="#"><button>DETAILS</button></a>
-                </div>
+
+        <h2>MAHALLAH AISHAH</h2>
+        <section class="event-list">
+            <div class="event-card">
+                <img src="images/Futsal.jpg" alt="Futsal Showdown">
+                <h3>FUTSAL SHOWDOWN</h3>
+                <p>DATE: 04 October 2024</p>
+                <p>VENUE: Mahallah Aishah</p>
+                <br>
+                <button id="btn-details" onclick="info()" ><b>DETAILS</b></button>
+            </div>
+            <div class="event-card">
+                <img src="images/AishahMakeOver.jpg" alt="Aishah Make Over">
+                <h3>AISHAH MAKE OVER</h3>
+                <p>DATE: 06 October 2024</p>
+                <p>VENUE: Mahallah Aishah</p>
+                <br>
+                <button id="btn-details" onclick="info()" ><b>DETAILS</b></button>
+            </div>
+            <div class="event-card">
+                <img src="images/Basketball.jpg" alt="Basketball Tournament">
+                <h3>BASKETBALL TOURNAMENT</h3>
+                <p>DATE:  10 May 2025</p>
+                <p>VENUE: Mahallah Aishah</p>
+                <br>
+                <button id="btn-details" onclick="info()" ><b>DETAILS</b></button>
             </div>
         </section>
-        <section>
-            <h2>MAHALLAH FATIMA</h2>
-            <div class="events-list">
-                <div class="event-card">
-                    <img src="images/BeautyDeen.jpg" alt="BeautywithDeen">
-                    <h3>BEAUTY WITH DEEN</h3>
-                    <p>DATE: 29 September 2024</p>
-                    <p>VENUE: Khawarizmi Hall</p>
-                    <a href="#"><button>DETAILS</button></a>
-                </div>
-                <div class="event-card">
-                    <img src="images/FatimaFiesta.jpg" alt="FatimaDFiesta">
-                    <h3>FATIMA D'FIESTA</h3>
-                    <p>DATE: 06 December 2024</p>
-                    <p>VENUE: Mahallah Fatima</p>
-                    <a href="#"><button>DETAILS</button></a>
-                </div>
-                <div class="event-card">
-                    <img src="images/LoveSpikes.jpg" alt="LoveYourSpikes">
-                    <h3>LOVE YOUR SPIKES</h3>
-                    <p>DATE: 29 January 2025</p>
-                    <p>VENUE: TV Room</p>
-                    <a href="#"><button>DETAILS</button></a>
-                </div>
+
+        <h2>MAHALLAH FATIMA</h2>
+        <section class="event-list">
+            <div class="event-card">
+                <img src="images/BeautyDeen.jpg" alt="Beauty with Deen">
+                <h3>BEAUTY WITH DEEN</h3>
+                <p>DATE: 29 September 2024</p>
+                <p>VENUE: Khawarizmi Hall</p>
+                <br>
+                <button id="btn-details" onclick="info()" ><b>DETAILS</b></button>
+            </div>
+            <div class="event-card">
+                <img src="images/FatimaFiesta.jpg" alt="Fatima D' Fiesta">
+                <h3>FATIMA D'FIESTA</h3>
+                <p>DATE: 06 December 2024</p>
+                <p>VENUE: Mahallah Fatima</p>
+                <br>
+                <button id="btn-details" onclick="info()" ><b>DETAILS</b></button>
+            </div>
+            <div class="event-card">
+                <img src="images/LoveSpikes.jpg" alt="Love Your Spikes">
+                <h3>LOVE YOUR SPIKES</h3>
+                <p>DATE: 29 January 2025</p>
+                <p>VENUE: TV Room</p>
+                <br>
+                <button id="btn-details" onclick="info()" ><b>DETAILS</b></button>
             </div>
         </section>
     </main>
+    
     <footer>
-        <div>
-        <p><b>CONTACT US</b></p>
-        <p>TEL NO: 09-87654321</p>
+        <p><strong>CONTACT US</strong></p>
+        <div class="footer-left">
+        <p>TEL NO: 09-9202418</p>
         <p>EMAIL: cfseventhub@iium.edu.my</p>
-        </div>
+    </div>
 
-        <div>
-            <a href="https://www.instagram.com/">ig</a>
-            <a href="https://www.tiktok.com/">tiktok</a>
-            <a href="https://www.facebook.com/login.php">fb</a>
-        </div>
-    </footer>
+    <div class="footer-right">
+        <a href="https://www.instagram.com/" target="_blank">
+        <img src="images/instagram.png" alt="Instagram" width="30" /></a>
+        <a href="https://www.tiktok.com/" target="_blank">
+        <img src="images/tiktokpic.png" alt="TikTok" width="30" /></a>
+        <a href="https://www.facebook.com/login.php" target="_blank">
+        <img src="images/fbpic.png" alt="Facebook" width="30" /></a>
+    </div>
+
+    <p class="copyright">© Copyright 2025 CFS Event Hub Sdn Bhd 195901000261 (3609-M). All Rights Reserved</p>
+  </footer>
 </body>
 </html>
