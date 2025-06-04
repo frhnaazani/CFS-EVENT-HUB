@@ -245,4 +245,59 @@ footer .copyright {
   border-radius: 5px;
   border:solid black 1px;
 }
-  
+
+/*FOR LOGIN PAGE ONLY*/
+#welcome{
+  text-align: center;
+  margin-top: 150px;
+}
+
+.login-box{
+  display: flex;
+  margin: 40px auto;
+  padding: 5px 30px;
+  height: 280px;
+  width:260px;
+  background-color: aliceblue;
+  border: 3px solid cadetblue;
+  justify-content: space-between;
+  border-radius: 20px;
+  box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.3);
+}
+
+.login-box h2{
+  text-align: center;
+}
+
+#username{
+  width: 190px;
+  height: 25px;
+  border-radius: 10px;
+  border: 2px solid rgb(185, 210, 212);
+}
+
+#password{
+  width: 190px;
+  height: 25px;
+  border-radius: 10px;
+  border: 2px solid rgb(185, 210, 212);
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+}
+
+.btn button{
+  margin: 10px;
+  padding: 10px;
+  width: 60px;
+  background-color: rgb(181, 218, 218);
+  border: 2px solid rgb(186, 232, 233);
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background-color: #537474;
+  color: whitesmoke;
+}
