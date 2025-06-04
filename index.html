@@ -4,158 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAIN PAGE</title>
-    <style>
-        * {
-           margin: 0;
-           padding: 30;
-          /* box-sizing: border-box; */
-        } 
-
-        #banner{
-             display: block;
-             max-width: 100%;
-             height: auto;
-                margin-top: 0 auto;
-        }
-         
-        .nav-right {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-             margin-right: 20px;
-          /*  font-family: serif;
-            font-size: large;*/
-        }
-        .nav-left nav a {
-            margin-right: 20px;
-            text-decoration: none;
-            color: white;
-            font-family: serif;
-            font-size: large;
-            align-items: center;
-            gap: 10px;
-        }
-        .nav-center {
-            margin-right: 20px;
-            display: flex;
-            align-items: center;
-            font-family: papyrus;
-            padding-right: 0px;
-        }
-        .nav-right button {
-            width: 180px;
-            background-color: rosybrown;
-            border-radius: 10px;
-            font-family: serif;
-            font-size: large;
-            padding: 5px 15px;
-            border: 2px solid rgb(172, 92, 105);
-            
-        }
-
-        main{
-            padding: 30px;
-        }
-
-        h2{
-            text-align: center;
-            font-family: Inter, sans-serif;
-        }
-       
-         header{
-            display: flex;
-            flex-wrap: nowrap;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 30px;
-            height: 100px;
-            margin-bottom: 0px;
-            background-color: cadetblue;
-        }
-        footer{
-            display: flex;
-            align-items: center;
-            padding: 15px;
-            background-color: cadetblue;
-            justify-content: space-between;
-            margin: none;
-        }
-        footer a{
-            text-decoration: none;
-        }
-        body{
-            background-color: powderblue;
-            font-family: 'Poppins', sans-serif;
-        }
-       /* nav a{
-            margin-left: 20px;
-            text-decoration: none;
-            color: white;
-            font-size: larger;
-            
-        }
-        button{
-            background-color: rosybrown;
-            font-size: larger;
-            font-family: serif;
-            border-radius: 10px;
-        } */
-
-        .eventslist{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            justify-content: space-between;
-        }
-        .event-card{
-         /*   background: white;
-            border-radius: 10px;
-            box-sizing: border-box;
-            height: auto;
-            width: auto;
-            padding-left: 100px;
-            padding-right: 100px;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            text-align: center;
-             background: white;   */
-      padding: 10px;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      flex: 0 0 calc(33.333% - 20px); /* 3 cards per row */
-      box-sizing: border-box;
-      text-align: center;
-      background-color: white;
-        }
-        .event-card img{
-            width: auto;
-            height: 200px;
-            margin-bottom: 10px;
-            border-radius: 10px;
-        }
-    </style>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+    <script src="details.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-     <header>
+    <header>
         <div class="nav-left">
-        <nav>
-            <a href="index.html">HOME</a>
-            <a href="mahallah.html">MAHALLAH</a>
-            <a href="clubs.html">CLUB</a>
-            <a href="ABS.html">SOCIETY</a>
-        </nav></div>
-
+            <nav class="site-menu">
+                <ul class="menu">
+                    <li><a href="#">=</a>
+                        <ul class="sub-menu">
+                            <li><a href="aboutus.html">TEAM</a></li>
+                            <li><a href="#">PROFILE</a></li>
+                            <li><a href="#">PREFERENCES</a></li>
+                            <li><a href="admin.html">ADMIN</a></li>
+                            <li><a href="login.html">LOG OUT</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="mahallah.html">MAHALLAH</a></li>
+                    <li><a href="ABS.html">SOCIETY</a></li>
+                    <li><a href="clubs.html">CLUB</a></li>
+                </ul>
+            </nav>
+        </div>
         <div class="nav-center">
             <h1>CFS EVENT HUB</h1>
         </div>
-
         <div class="nav-right">
-            <a href="aboutus.html"><button>ABOUT US</button></a>
             <a href="login.html"><button>LOGIN</button></a>
         </div>
     </header>
+    
     <img id= "banner" src="images/cfs-event-banner.jpg">
 
     <main>
@@ -238,18 +121,24 @@
             </div>
         </section>
     </main>
+    
     <footer>
-        <div>
-        <p><b>CONTACT US</b></p>
-        <p>TEL NO: 09-87654321</p>
+        <p><strong>CONTACT US</strong></p>
+        <div class="footer-left">
+        <p>TEL NO: 09-9202418</p>
         <p>EMAIL: cfseventhub@iium.edu.my</p>
-        </div>
+    </div>
 
-        <div>
-            <a href="https://www.instagram.com/">ig</a>
-            <a href="https://www.tiktok.com/">tiktok</a>
-            <a href="https://www.facebook.com/login.php">fb</a>
-        </div>
-    </footer>
+    <div class="footer-right">
+        <a href="https://www.instagram.com/" target="_blank">
+        <img src="images/instagram.png" alt="Instagram" width="30" /></a>
+        <a href="https://www.tiktok.com/" target="_blank">
+        <img src="images/tiktokpic.png" alt="TikTok" width="30" /></a>
+        <a href="https://www.facebook.com/login.php" target="_blank">
+        <img src="images/fbpic.png" alt="Facebook" width="30" /></a>
+    </div>
+
+    <p class="copyright">© Copyright 2025 CFS Event Hub Sdn Bhd 195901000261 (3609-M). All Rights Reserved</p>
+  </footer>
 </body>
 </html>
