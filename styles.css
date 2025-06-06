@@ -442,25 +442,6 @@ input, select, textarea {
      cursor: pointer;
 }
 
-@media (max-width: 600px) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    footer {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-}
-
-header, footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
 /* FOR PROFILE PAGE */
 #profile-page{
   text-align: center;
