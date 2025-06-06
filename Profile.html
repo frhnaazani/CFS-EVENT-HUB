@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+         <div class="nav-left">
+            <nav class="site-menu">
+                <ul class="menu">
+                    <li><a href="#">=</a>
+                        <ul class="sub-menu">
+                            <li><a href="aboutus.html">TEAM</a></li>
+                            <li><a href="Profile.html">PROFILE</a></li>
+                            <li><a href="#">PREFERENCES</a></li>
+                            <li><a href="admin.html">ADMIN</a></li>
+                            <li><a href="login.html">LOG OUT</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="mahallah.html">MAHALLAH</a></li>
+                    <li><a href="ABS.html">SOCIETY</a></li>
+                    <li><a href="clubs.html">CLUB</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="nav-center">
+            <h1>CFS EVENT HUB</h1>
+        </div>
+        <div class="nav-right">
+            <a href="login.html"><button>LOGIN</button></a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1 id="profile-page"><strong>PROFILE PAGE</strong></h1>
+            <br>
+            <div id="profile-img">
+            <img src="images/profile pic.png" alt="profile">
+            </div>
+
+            <div class="profile-details">
+                <div class="profile">
+                     STUDENT INFORMATION
+                </div><br>
+                <ul>
+                    <li>
+                        <span id="student-name">NAME: YANG JUNGWON</span>
+                        <button onclick="editStudent()">Edit</button>
+                    </li>
+                    <li><span>NO MATRIC : 203618</span><button>Edit</button></li>
+                    <li><span>COURSE : FOUNDATION IN COMPUTER SCIENCE</span><button>Edit</button></li>
+                    <li><span>EMAIL : nurulfarhanaana.azani@gmail.com</span><button>Edit</button></li>
+                    <li><span>PHONE NO : +6014-6422036</span><button>Edit</button></li>
+                    <li><span>SECTION : 481</span><button>Edit</button></li>
+                    <li><span>MAHALLAH : FATIMA AL-MAJRITIYA</span><button>Edit</button></li>
+                    <li><span>TOTAL STARPOINT : 650 (4.0)</span><button>Edit</button></li>
+
+                </ul>
+            </div>
+        </section>
+    </main>
+    <br>
+    <footer>
+        <div>
+        <p><b>CONTACT US</b></p>
+        <p>TEL NO: 09-87654321</p>
+        <p>EMAIL: cfseventhub@iium.edu.my</p>
+        </div>
+
+        <div>
+            <a href="https://www.instagram.com/">ig</a>
+            <a href="https://www.tiktok.com/">tiktok</a>
+            <a href="https://www.facebook.com/login.php">fb</a>
+        </div>
+    </footer>
+</body>
+<script>
+function editStudent() {
+    // Simulate sending an AJAX request to the server
+    fetch('student.json')  // This could be a real endpoint (e.g. '/get-student')
+        .then(response => response.json())
+        .then(data => {
+            // Assume the server returns something like:
+            // { "name": "YANG JUNGWON (Edited)" }
+            document.getElementById('student-name').textContent = "NAME: " + data.name;
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+        });
+}
+</script>
+</html>
