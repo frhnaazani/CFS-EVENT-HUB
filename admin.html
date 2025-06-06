@@ -4,106 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Page</title>
-    <style>
-        * {
-           margin: 0;
-           padding: 0;
-           box-sizing: border-box; 
-        } 
-        main{
-            padding: 30px;
-        }
-        header{
-            display: flex;
-            align-items: center;
-            padding: 15px;
-            background-color: cadetblue;
-            justify-content: space-between;
-            margin: none;
-            height: 100px;
-        }
-        footer{
-            display: flex;
-            align-items: center;
-            padding: 15px;
-            background-color: cadetblue;
-            justify-content: space-between;
-            margin: none;
-        }
-        footer a{
-            text-decoration: none;
-        }
-        body{
-            background-color: powderblue;
-            font-family: 'Poppins', sans-serif;
-        }
-        nav a{
-            margin-left: 20px;
-            text-decoration: none;
-            color: white;
-            font-size: larger;
-            
-        }
-        button{
-            background-color: rosybrown;
-            font-size: larger;
-            font-family: serif;
-            border-radius: 10px;
-        }
-        h1{
-            text-align: center;
-        }
-        .newevent{
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            margin: 0 auto;
-        }
-        #submit {
-            background-color: rosybrown;
-            font-size: larger;
-            font-family: serif;
-            border-radius: 10px;
-            text-align: center;
-        }
-        form{
-            text-align: center;
-        }
-        input, select, textarea {
-            width: 100%;
-            max-width: 500px;
-        }
-        @media (max-width: 600px) {
-        header, footer {
-            flex-direction: column;
-            align-items: flex-start;
-        }
-        nav a {
-            display: block;
-            margin: 10px 0;
-        }
-        nav a:hover, button:hover {
-            color: #000;
-            background-color: blue;
-        }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1 style="font-family:papyrus;">CFS EVENT HUB</h1>
-        <nav>
-            <a href="index.html">HOME</a>
-            <a href="mahallah.html">MAHALLAH</a>
-            <a href="clubs.html">CLUB</a>
-            <a href="ABS.html">SOCIETY</a>
-            <a href="admin.html">ADMIN</a>
-            <a href="#"><button>ABOUT US</button></a>
+         <div class="nav-left">
+            <nav class="site-menu">
+                <ul class="menu">
+                    <li><a href="#">=</a>
+                        <ul class="sub-menu">
+                            <li><a href="aboutus.html">TEAM</a></li>
+                            <li><a href="#">PROFILE</a></li>
+                            <li><a href="#">PREFERENCES</a></li>
+                            <li><a href="admin.html">ADMIN</a></li>
+                            <li><a href="login.html">LOG OUT</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="mahallah.html">MAHALLAH</a></li>
+                    <li><a href="ABS.html">SOCIETY</a></li>
+                    <li><a href="clubs.html">CLUB</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="nav-center">
+            <h1>CFS EVENT HUB</h1>
+        </div>
+        <div class="nav-right">
             <a href="login.html"><button>LOGIN</button></a>
-        </nav>
+        </div>
     </header>
-    <main>
-        <h1>ADMIN PAGE</h1>
+<main>
+        <h1 id="admin">ADMIN PAGE</h1>
         <br>
         <br><br>
         <div class="newevent" style="border: 1px solid #030303;background-color: rosybrown; padding: 10px; width: 200px;">
