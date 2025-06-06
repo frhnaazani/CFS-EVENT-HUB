@@ -305,6 +305,7 @@ footer .copyright {
 /*FOR ADMIN PAGE ONLY*/
  #admin{
   text-align: center;
+  text-decoration-line: underline;
 }
 
 .newevent{
@@ -315,10 +316,18 @@ footer .copyright {
 }
 
 #submit {
-   border-radius: 5px;
-   border:solid black 1px;
-   font-size: larger;
-   text-align: center;
+    background-color: rgb(212, 254, 255);
+    border-radius: 10px;
+    padding: 5px 15px;
+    border: 2px solid rgb(41, 95, 95);
+    cursor: pointer;
+    font-size: large;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    align-items: center;
+    gap: 10px;
 }
 
 #submit:hover {
@@ -333,10 +342,12 @@ form{
 input, select, textarea {
      width: 100%;
      max-width: 500px;
+     cursor: pointer;
 }
 
 @media (max-width: 600px) {
 header, footer {
       flex-direction: column;
       align-items: flex-start;
+}
 }
