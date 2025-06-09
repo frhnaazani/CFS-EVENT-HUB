@@ -93,21 +93,30 @@
       gap: 10px;
     }
 
-    .nav-right button {
-      width: 180px;
-      background-color: rgb(212, 254, 255);
-      border-radius: 10px;
-      padding: 5px 15px;
-      border: 2px solid rgb(41, 95, 95);
-      cursor: pointer;
-      font-size: large;
-      font-family: 'Rajdhani', sans-serif;
-      font-weight: 700;
-      word-spacing: 10px;
-      letter-spacing: 3px;
-      align-items: center;
-      gap: 10px;
-    }
+    .nav-right button{
+        width: 180px;
+        background-color: rgb(212, 254, 255);
+        border-radius: 10px;
+        padding: 5px 15px;
+        border: 2px solid rgb(41, 95, 95);
+        cursor: pointer;
+        font-size:medium ;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 700;
+        word-spacing: 10px;
+        letter-spacing: 3px;
+        align-items: center;
+        gap: 10px;
+        border-color: black ;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+.nav-right button:hover{
+  background-color: powderblue;
+  border-radius: 20px;
+}
 
     .event-list {
       display: flex;
