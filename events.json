@@ -1,0 +1,169 @@
+[
+  {
+    "organiser" : "Intechss",
+    "title": "Code of War",
+    "date": "2025-02-08",
+    "venue": "Al-Khalil"
+  },
+  {
+    "organiser" : "Intechss",
+    "title": "Mentor Mentee",
+    "date": "2025-01-17",
+    "venue": "Lecture Hall 2"
+  },
+  {
+    "organiser" : "Intechss",
+    "title": "Robotic Workshop",
+    "date": "2025-05-16",
+    "venue": "Exam Hall 2"
+  },
+  {
+    "organiser" : "Medcy",
+    "title": "Medcy Playlist",
+    "date": "2025-04-26",
+    "venue": "Exam Hall 1"
+  },
+  {
+    "organiser" : "Medcy",
+    "title": "Code Red: Medcy Response",
+    "date": "2025-04-19",
+    "venue": "Exam Hall 1"
+  },
+  {
+    "organiser" : "Medcy",
+    "title": "Medcytopia",
+    "date": "2025-05-16",
+    "venue": "Exam Hall 2"
+  },
+{
+    "organiser" : "Melex",
+    "title": "Lex-Theathe",
+    "date": "2025-05-12",
+    "venue": "Al-Khawarizmi Hall"
+  },
+  {
+    "organiser" : "Melex",
+    "title": "Lex-Flix",
+    "date": "2024-10-11",
+    "venue": "Lecture Hall 1"
+  },
+  {
+    "organiser" : "Melex",
+    "title": "Lex-Talk",
+    "date": "2025-05-16",
+    "venue": "Exam Hall 2"
+  },
+
+  {
+    "organiser" : "Mahallah Umamah",
+    "title": "Masyitah The Explorer",
+    "date": "2025-04-26",
+    "venue": "Mahallah Umamah"
+  },
+  {
+    "organiser" : "Mahallah Umamah",
+    "title": "BIBIMPLANT",
+    "date": "2025-05-17",
+    "venue": "Mahallah Umamah"
+  },
+  {
+    "organiser" : "Mahallah Umamah",
+    "title": "Khat Competition",
+    "date": "2025-05-24",
+    "venue": "MPR Umamah"
+  },
+  {
+    "organiser" : "Mahallah Aisyah",
+    "title": "Futsal Showdown",
+    "date": "2024-10-26",
+    "venue": "Futsal Court"
+  },
+  {
+    "organiser" : "Mahallah Aisyah",
+    "title": "Aisyah Make Over",
+    "date": "2024-10-06",
+    "venue": "Bustan Aisyah"
+  },
+  {
+    "organiser" : "Mahallah Aisyah",
+    "title": "Basketball Tournament",
+    "date": "2025-05-10",
+    "venue": "Basketball Court"
+  },
+  {
+    "organiser" : "Mahallah Fatima",
+    "title": "Beauty with Deen",
+    "date": "2024-09-29",
+    "venue": "Al-Khawarizmi Hall"
+  },
+  {
+    "organiser" : "Mahallah Fatima",
+    "title": "Fatima D'Fiesta",
+    "date": "2024-12-06",
+    "venue": "Mahallah Fatima"
+  },
+  {
+    "organiser" : "Mahallah Fatima",
+    "title": "Love Your Spikes",
+    "date": "2025-01-29",
+    "venue": "TV Room"
+  },
+
+
+  {
+    "organiser" : "I-Masjid",
+    "title": "Murattal 7 Tarannum",
+    "date": "2025-05-18",
+    "venue": "Masjid CFS"
+  },
+  {
+    "organiser" : "I-Masjid",
+    "title": "Dakwah Trail",
+    "date": "2025-05-25",
+    "venue": "Pelindung Hill"
+  },
+  {
+    "organiser" : "I-Masjid",
+    "title": "Qiamullail",
+    "date": "2025-05-09",
+    "venue": "Masjid CFS"
+  },
+
+  {
+    "organiser" : "PEERS",
+    "title": "Your Path Your Rules",
+    "date": "2025-05-22",
+    "venue": "Al-Khawarizmi Hall"
+  },
+  {
+    "organiser" : "PEERS",
+    "title": "Career Exhibition",
+    "date": "2025-05-21",
+    "venue": "Multipurpose Room"
+  },
+  {
+    "organiser" : "PEERS",
+    "title": "Purple Walk",
+    "date": "2024-10-19",
+    "venue": "Student Centre"
+  },
+
+  {
+    "organiser" : "CITRA",
+    "title": "Citra The End",
+    "date": "2025-05-17",
+    "venue": "Al-Khawarizmi Hall"
+  },
+  {
+    "organiser" : "CITRA",
+    "title": "Citraditional",
+    "date": "2025-02-02",
+    "venue": "Al-Khawarizmi Hall"
+  },
+  {
+    "organiser" : "CITRA",
+    "title": "Ladies Night",
+    "date": "2025-03-25",
+    "venue": "Al-Khawarizmi Hall"
+  }
+]
