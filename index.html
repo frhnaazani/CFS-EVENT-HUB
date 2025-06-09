@@ -7,8 +7,11 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
-    <script src="details.js"></script>
     <link rel="stylesheet" href="styles.css">
+
+    <script src="details.js"></script>
+    <script src="javascript.js"></script>
+    
 </head>
 <body>
     <header>
@@ -35,7 +38,15 @@
             <h1>CFS EVENT HUB</h1>
         </div>
         <div class="nav-right">
-            <a href="login.html"><button>LOGIN</button></a>
+            <div class="filter">
+                <input type="search" id="searchbox" placeholder="Search events...">
+                <br>
+                     <div class="results-card">
+                        <ul id="results"></ul>
+                        <br>
+                        <button id="btn-details" onclick="info()"><b>DETAILS</b></button>
+                    </div>
+                </div>
         </div>
     </header>
     
@@ -130,7 +141,7 @@
             </div>
         </section>
     </main>
-    
+
     <footer>
         <p><strong>CONTACT US</strong></p>
         <div class="footer-left">
@@ -149,5 +160,6 @@
 
     <p class="copyright">© Copyright 2025 CFS Event Hub Sdn Bhd 195901000261 (3609-M). All Rights Reserved</p>
   </footer>
+
 </body>
 </html>
