@@ -249,11 +249,6 @@ footer .copyright {
   display: block;
 }
 
-#btn-details{
-  border-radius: 5px;
-  border:solid black 1px;
-}
-
 .btn-details{
   border-radius: 5px;
   border: 2px solid cadetblue;
@@ -283,6 +278,13 @@ footer .copyright {
     align-items: center;
     }
 
+  /*event details*/
+  .event-container {
+  display: flex;
+  align-items: flex-start; /* Align top edges */
+  gap: 20px; /* Space between media and details */
+}
+
   .media-section{
    display: flex;
    align-items: center;
@@ -290,6 +292,7 @@ footer .copyright {
    margin-bottom: 30px;
    justify-content: center;
    flex-wrap: wrap;
+   flex: 1;
   }
 
   .details{
@@ -300,12 +303,18 @@ footer .copyright {
   width: fit-content;
   font-family: sans-serif;
   font-size: 18px;
+  
   }
 
   .details li{
      margin: 8px 0; 
   }
-
+   .details li ul {
+  list-style-type: disc;
+  margin-top: 5px;
+  margin-left: 20px;
+  padding-left: 0;
+}
   .register-button{
     display: block;         /* Make it block so margin works */
   margin: 0 auto;         /* Center horizontally */
@@ -341,6 +350,16 @@ footer .copyright {
       margin-bottom: 10px;
       padding: 10px;
       font-size: 16px;
+    }
+
+    .review button{
+      border-radius: 5px;
+  border: 1.5px solid cadetblue;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: rgb(199, 232, 234);  
+  margin: 12px 0; 
     }
 
 /*FOR LOGIN PAGE ONLY*/
