@@ -22,7 +22,7 @@ function searchEvents() {
                 for (let i = 0; i < filtered.length; i++) {
                     let event = filtered[i];
                     let li = document.createElement("li");
-                    li.innerHTML = "<strong>" + event.title + "</strong><br>" + event.date + " | " + event.venue + " | " + "<bold>" + event.organiser + "</bold>";
+                    li.innerHTML = "<strong>" + event.title + "</strong><br>" + event.date + " | " + event.venue + " | " + "<b>" + event.organiser + "</b>";
                     resultsList.appendChild(li);
                 }
             } else {
