@@ -570,3 +570,40 @@ input, select, textarea {
     font-size: 0.9em;
     cursor: pointer;
 }
+
+/* filter */
+#searchbox {
+  padding: 8px 14px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 250px;
+  font-family: 'Outfit', sans-serif;
+  background-color: #fff;
+  color: #333;
+  align-content: center;
+}
+
+.results-card {
+  display: none; /* hidden by default */
+  margin-top: 10px;
+  background-color: #f4f4f4;
+  padding: 10px 15px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  align-content: center;
+}
+
+#results li {
+  list-style: none;
+  padding: 4px 0;
+}
+
+.filter{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  gap: 0;
+}
