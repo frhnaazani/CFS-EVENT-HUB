@@ -38,15 +38,17 @@
         </div>
         <div class="nav-right">
             <div class="filter">
-                <input type="search" id="searchbox" placeholder="Search events...">
-                <br>
-                     <div class="results-card">
-                        <ul id="results"></ul>
-                        <br>
-                        <button id="btn-details" onclick="info()"><b>DETAILS</b></button>
-                    </div>
+                <div class="search-container">
+                    <input type="search" id="searchbox" placeholder="Search events...">
                 </div>
+            </div>
+            <div class="results-wrapper">
+                <div class="results-card" id="resultsCard">
+                    <ul id="results"></ul>
+                </div>
+            </div>
         </div>
+
     </header>
     
     <img id= "banner" src="images/cfs-event-banner.jpg">
