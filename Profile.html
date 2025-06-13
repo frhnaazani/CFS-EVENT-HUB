@@ -44,26 +44,25 @@
             <h1 id="profile-page"><strong>PROFILE PAGE</strong></h1>
             <br>
             <div id="profile-img">
-            <img src="images/profile pic.png" alt="profile">
+            <img src="images/jw id photo.jpg" alt="profile">
             </div>
+            <br>
 
             <div class="profile-details">
                 <div class="profile">
                      STUDENT INFORMATION
                 </div><br>
                 <ul>
-                    <li>
-                        <span id="student-name">NAME: YANG JUNGWON</span>
-                        <button onclick="editStudent()">Edit</button>
-                    </li>
-                    <li><span>NO MATRIC : 203618</span><button>Edit</button></li>
-                    <li><span>COURSE : FOUNDATION IN COMPUTER SCIENCE</span><button>Edit</button></li>
-                    <li><span>EMAIL : nurulfarhanaana.azani@gmail.com</span><button>Edit</button></li>
-                    <li><span>PHONE NO : +6014-6422036</span><button>Edit</button></li>
-                    <li><span>SECTION : 481</span><button>Edit</button></li>
-                    <li><span>MAHALLAH : FATIMA AL-MAJRITIYA</span><button>Edit</button></li>
-                    <li><span>TOTAL STARPOINT : 650 (4.0)</span><button>Edit</button></li>
-
+                    <br>
+                    <li>NAME: YANG JUNGWON</li>
+                    <li>MATRIC NO : 203618</li>
+                    <li>COURSE : FOUNDATION IN COMPUTER SCIENCE</li>
+                    <li>EMAIL : jungwon@gmail.com</li>
+                    <li>PHONE NO : +6014-6422036</li>
+                    <li>POSITION : PRESIDENT OF SCC, HEAD DAKWAH BUREAU OF I-MASJID</li>
+                    <li>MAHALLAH : MAHALLAH AISYAH</li>
+                    <li>TOTAL STARPOINT : 950 (4.0)</li>
+                    <button onclick="errormessage()"><b>EDIT PROFILE</b></button>
                 </ul>
             </div>
         </section>
@@ -89,18 +88,11 @@
     </footer>
 </body>
 <script>
-function editStudent() {
-    // Simulate sending an AJAX request to the server
-    fetch('student.json')  // This could be a real endpoint (e.g. '/get-student')
-        .then(response => response.json())
-        .then(data => {
-            // Assume the server returns something like:
-            // { "name": "YANG JUNGWON (Edited)" }
-            document.getElementById('student-name').textContent = "NAME: " + data.name;
-        })
-        .catch(error => {
-            console.error('Error fetching data:', error);
-        });
-}
+
+        function errormessage()
+        {
+            alert("ERROR! Please contact ODDAI for any changes.");
+        }
+
 </script>
 </html>
