@@ -35,7 +35,16 @@
             <h1>CFS EVENT HUB</h1>
         </div>
         <div class="nav-right">
-            <a href="login.html"><button>LOGIN</button></a>
+            <div class="filter">
+                <div class="search-container">
+                    <input type="search" id="searchbox" placeholder="Search events...">
+                </div>
+            </div>
+            <div class="results-wrapper">
+                <div class="results-card" id="resultsCard">
+                    <ul id="results"></ul>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -93,6 +102,7 @@
         {
             alert("ERROR! Please contact ODDAI for any changes.");
         }
+    
 
 </script>
 </html>
