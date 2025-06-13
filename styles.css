@@ -573,10 +573,19 @@ input, select, textarea {
 }
 
 .profile-details button {
-    margin-left: 10px;
-    padding: 4px 8px;
-    font-size: 0.9em;
-    cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  padding: 4px 8px;
+  font-size: 0.9em;
+  cursor: pointer;
+  width: 400px;
+  background-color: cadetblue;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.profile-details button:hover {
+  background-color: rgb(26, 82, 117);
 }
 
 /* filter */
@@ -602,7 +611,7 @@ input, select, textarea {
 
 .results-card {
   position: absolute;
-  top: 100%; /* bawah search box */
+  top: 100%; 
   right: 0;
   z-index: 10;
   background: rgb(255, 255, 255);
