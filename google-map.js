@@ -2,9 +2,9 @@
 function init() {
     // Set up the map options
     var mapOptions = {
-        center: new google.maps.LatLng(3.731079391077697, 103.06391008809221), // Lokasi tengah peta
-        mapTypeId: google.maps.MapTypeId.HYBRID,
-        zoom: 13
+        center: new google.maps.LatLng(3.72803, 103.06422), // CFS IIUM
+        mapTypeId: google.maps.MapTypeId.SATELLITE,
+        zoom: 15
     };
 
     // Create the map and assign it to the 'map' div
@@ -14,7 +14,7 @@ function init() {
     var locations = [
         {lat: 3.72711, lng: 103.06401, title: "Masjid CFS IIUM"},
         {lat: 3.72432, lng: 103.05961, title: "Library Dar Al-Hikmah"},
-        {lat: 3.72261, lng: 103.05989, title: " MahallahUmamah"}
+        {lat: 3.72261, lng: 103.05989, title: " Mahallah Umamah"}
     ];
 
     // Pin locations
