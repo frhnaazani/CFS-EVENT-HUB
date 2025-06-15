@@ -83,41 +83,43 @@
     note: "-"
   },
 
-//mahallah
+//Mahallah
    MasyitahExplorer: {
     title: "MASYITAH THE EXPLORER",
-    date: "18 May 2025",
-    time:"9.00 AM - 5.00PM",
+    date: "26 April 2025",
+    time:"9.30 AM - 1.00PM",
     venue: "MPR Mahallah Umamah",
-    organiser: "HRC HISBAH MASYITAH",
+    organiser: "HRC Hisbah Masyitah",
     image: "images/MasyitahExplorer.jpg",
-    contact: "019-3053320 (Sr Nurin)",
+    contact: "019-3053320 (Sr Nurfa)",
     note: "-"
     
   },
   Bibimplant:{
     title: "BIBIMPLANT",
-    date: "25 May 2025",
-    venue: "HRC Hisbah Asma' Abu Bakar",
-    organiser: "I-MASJID & ENC",
+    date: "17 May 2025",
+    time:"9.30 AM - 1.30PM",
+    venue: "Umamah's Multipurpose Room",
+    organiser: "HRC Hisbah Asma' Abu Bakar",
     image: "images/Bibimplant.jpg",
-    contact: "019-3053320 (Sr Nurin)",
-    note: "Fee: RM15   "
+    contact: "019-3053320 (Sr Nurfa)",
+    note: "Fee: RM15"
   },
   KhatCompetition: {
     title: "KHAT COMPETITION",
-    date: "9 May 2025",
-    venue: "MRC Mahallah Umamah",
-    organiser: "MPR Mahallah Umamah",
+    date: "24 May 2025",
+    time:"9.00 AM - 12.30PM",
+    venue: "MPR Mahallah Umamah",
+    organiser: "Bureau of Dakwah & Training Mahallah Umamah",
     image: "images/KhatCompetition.jpg",
-    contact: "019-3053320 (Sr Nurin)",
+    contact: "019-3053320 (Sr Nurfa)",
     note: "- "
   },
   Futsal: {
     title: "FUTSAL SHOWDOWN",
-    date: "22 April 2025",
-    venue: " Stadium cfs iium",
-    organiser: "MRC MAHALLAH AISYAH",
+    date: "04-05 April 2025",
+    venue: "Stadium CFS IIUM",
+    organiser: "MRC Mahallah Aisyah",
     image: "images/Futsal.jpg",
     contact: "Sr Aliah: 019-270 4860, 018-474 8313  (Sr Wafa)",
     note: "-"
@@ -125,48 +127,53 @@
   AishahMakeOver: {
     title: "AISHAH MAKE OVER",
     date: "21-22 April 2025",
-    venue: "Multipurpose Room",
-    organiser:"MRC MAHALLAH AISYAH",
+    time:"8.00 AM - 12.00PM",
+    venue: "MPR Mahallah Aisyah",
+    organiser:"MRC Mahallah Aisyah",
     image: "images/AishahMakeOver.jpg",
     contact: "019-3053320 (Br Adib),  011-58893531 (Br Ziqry)",
     note: "-"
   },
   Basketball: {
     title: "BASKETBALL TOURNAMENT",
-    date: "9 May 2025",
+    date: "10 May 2025",
+    time:"5.00 PM - 11.00PM",
     venue: "Basketball court iium",
-    organiser: "MRC MAHALLAH AISYAH",
+    organiser: "MRC Mahallah Aisyah",
     image: "images/Basketball.jpg",
     contact: "019-3053320 (Br Adib),  011-58893531 (Br Ziqry)",
     note: "-"
   },
   BeautyDeen: {
     title: "BEAUTY WITH DEEN",
-    date: "17 May 2025",
+    date: "29 September 2024",
+    time:"8.00 AM - 1.30PM",
     venue: "Khawarizmi Hall",
-    organiser: "MRC MAHALLAH FATIMA",
+    organiser: "MRC Mahallah Fatima",
     image: "images/BeautyDeen.jpg",
     contact: "019-3053320 (Sr Irdina)",
     note: "-"
   },
   FatimaFiesta: {
     title: "FATIMA D'FIESTA",
-    date: "2 February 2025",
+    date: "06-07 December 2024",
     venue: "Khawarizmi Hall",
-    organiser: "MRC MAHALLAH FATIMA",
+    organiser: "MRC Mahallah Fatima",
     image: "images/FatimaFiesta.jpg",
     contact: "019-3053320 (Sr Lutfiyah)",
     note: "-"
   },
   LoveSpikes: {
     title: "LOVE YOUR SPIKES",
-    date: "25 March 2025",
-    venue: "Khawarizmi Hall",
-    organiser: "MRC MAHALLAH FATIMA",
+    date: "29 January 2025",
+    time:"8.30 AM - 9.30PM",
+    venue: "TV Room Mahallah Fatima",
+    organiser: "MRC Mahallah Fatima",
     image: "images/LoveSpikes.jpg",
-    contact: "019-3053320 (Sr Farhana)",
+    contact: "019-3053320 (Sr Nurfa)",
     note: "-"
   },
+        
   //Society
   roboticCompetition: {
     title: "ROBOTIC WORKSHOP",
