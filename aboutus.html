@@ -19,8 +19,8 @@
       <li><a href="#">=</a>
         <ul class="sub-menu">
           <li><a href="aboutus.html">TEAM</a></li>
-          <li><a href="#">PROFILE</a></li>
-          <li><a href="#">PREFERENCES</a></li>
+          <li><a href="Profile.html">PROFILE</a></li>
+          <li><a href="maps.html">LOCATIONS</a></li>
           <li><a href="admin.html">ADMIN</a></li>
           <li><a href="login.html">LOG OUT</a></li>
         </ul>
@@ -37,9 +37,18 @@
       <h1>CFS EVENT HUB</h1>
     </div>
 
-    <div class="nav-right">
-      <a href="login.html"><button>LOGIN</button></a>
-    </div>
+   <div class="nav-right">
+            <div class="filter">
+                <div class="search-container">
+                    <input type="search" id="searchbox" placeholder="Search events...">
+                </div>
+            </div>
+            <div class="results-wrapper">
+                <div class="results-card" id="resultsCard">
+                    <ul id="results"></ul>
+                </div>
+            </div>
+        </div>
   </header>
 
   <main>
@@ -90,7 +99,6 @@
     <p class="copyright">© Copyright 2025 CFS Event Hub Sdn Bhd 195901000261 (3609-M). All Rights Reserved</p>
 
   </footer>
-
-
+  <script src="javascript.js"></script>
 </body>
 </html>
