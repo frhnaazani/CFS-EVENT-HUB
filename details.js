@@ -213,12 +213,12 @@
     contact: "019-3053320 (Br Adib),  011-58893531 (Br Ziqry)",
     note: "-"
   },
-  medcyplaylist: {
-    title: "MEDCY PLAYLIST",
-    date: "17 May 2025",
-    venue: "Khawarizmi Hall",
+  medcytopia: {
+    title: "MEDCYTOPIA",
+    date: "5 OCTOBER 2024",
+    venue: "Lecture Hall 2",
     organiser: "MEDCY",
-    image: "images/medcyplaylist.jpeg",
+    image: "images/medcytopia.png",
     contact: "019-3053320 (Br Adib),  011-58893531 (Br Ziqry)",
     note: "-"
   },
@@ -226,26 +226,26 @@
     title: "LEX-THEATRE",
     date: "17 May 2025",
     venue: "Khawarizmi Hall",
-    organiser: "CITRA",
+    organiser: "MELEX",
     image: "images/lexTheatre.jpg",
     contact: "019-3053620 (Br Aiman),  011-58893531 (Br Ziqry)",
     note: "-"
   },
   LEXFLIX: {
     title: "LEX-FLIX",
-    date: "17 May 2025",
-    venue: "Khawarizmi Hall",
-    organiser: "CITRA",
+    date: "11 October 2024",
+    venue: "Lecture Hall 1",
+    organiser: "MELEX",
     image: "images/LEX-FLIX.jpg",
     contact: "019-3053620 (Br Aiman),  011-58893531 (Br Ziqry)",
     note: "-"
   },
   lextheatre: {
     title: "LEX-TALK",
-    date: "17 May 2025",
+    date: "29 September 2024",
     venue: "Khawarizmi Hall",
-    organiser: "CITRA",
-    image: "images/lextheatre ticket.jpg",
+    organiser: "MELEX",
+    image: "images/lex-talk.png",
     contact: "019-3053620 (Br Aiman),  011-58893531 (Br Ziqry)",
     note: "-"
   },
