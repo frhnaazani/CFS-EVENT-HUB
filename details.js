@@ -243,7 +243,7 @@
     organiser: "MELEX",
     image: "images/lexTheatre.jpg",
     contact: "019-3053620 (Br Aiman),  011-58893531 (Br Ziqry)",
-    note: "Important !!! Do collect your ticket by 10 may 2025 at student centre."
+    note: "Important !!! Do collect your ticket by 10 may 2025 at student centre. Do bring your food or snacks to enjoy the theatre."
   },
   LEXFLIX: {
     title: "LEX-FLIX",
@@ -253,9 +253,9 @@
     organiser: "MELEX",
     image: "images/LEX-FLIX.jpg",
     contact: "019-3053620 (Br Abu),  011-58893531 (Br Waie)",
-    note: "- Do bring your food or popcorn to enjoy the movie."
+    note: "Do bring your food or popcorn to enjoy the movie."
   },
-  lextheatre: {
+  lextalk: {
     title: "LEX-TALK",
     date: "26 April 2025",
     time:"9.00 AM - 5.00PM",
@@ -263,7 +263,7 @@
     organiser: "MELEX",
     image: "images/lex-talk.png",
     contact: "019-3053620 (Br Jungwon),  011-58893531 (Br Jay)",
-    note: "Do bring your food or snacks to enjoy the theatre."
+    note: "-"
   },
 };
     
