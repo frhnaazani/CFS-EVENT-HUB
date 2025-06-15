@@ -173,6 +173,7 @@ h2{
   margin-bottom: 10px;
 }
 
+/*FOOTER*/
 footer{
   background-color: cadetblue;
   padding: 20px;
@@ -218,6 +219,7 @@ footer .copyright{
   color: black;
 }
 
+/*DROPDOWN HEADER*/
 .menu{
   list-style: none;
   margin: 0;
@@ -281,7 +283,12 @@ footer .copyright{
   font-size: 16px;
   background-color: rgb(199, 232, 234);    
 }
-  
+
+.btn-details:hover{
+  background-color: rgb(39, 152, 209);
+  color: whitesmoke;
+}
+
 .poster img{
   object-fit: cover;
   border-radius: 8px;
@@ -356,6 +363,11 @@ footer .copyright{
   margin: 12px 0; 
 }
 
+.register-button button:hover{
+  background-color: rgb(39, 152, 209);
+  color: whitesmoke;
+}
+
 .review{
   background: white;
   padding: 20px;
@@ -384,6 +396,11 @@ footer .copyright{
   font-size: 16px;
   background-color: rgb(199, 232, 234);  
   margin: 12px 0; 
+}
+
+.review button:hover{
+  background-color: rgb(39, 152, 209);
+  color: whitesmoke;
 }
 
 /*FOR LOGIN PAGE ONLY*/
