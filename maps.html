@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOCATIONS</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="details.js"></script>
+
+</head>
+<body>
+    <header style="position: relative;">
+        <div class="nav-left">
+            <nav class="site-menu">
+                <ul class="menu">
+                    <li><a href="#">=</a>
+                        <ul class="sub-menu">
+                            <li><a href="aboutus.html">TEAM</a></li>
+                            <li><a href="Profile.html">PROFILE</a></li>
+                            <li><a href="maps.html">LOCATIONS</a></li>
+                            <li><a href="admin.html">ADMIN</a></li>
+                            <li><a href="login.html">LOG OUT</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="mahallah.html">MAHALLAH</a></li>
+                    <li><a href="ABS.html">SOCIETY</a></li>
+                    <li><a href="clubs.html">CLUB</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="nav-center">
+            <h1>CFS EVENT HUB</h1>
+        </div>
+        <div class="nav-right">
+            <div class="filter">
+                <div class="search-container">
+                    <input type="search" id="searchbox" placeholder="Search events...">
+                </div>
+            </div>
+            <div class="results-wrapper">
+                <div class="results-card" id="resultsCard">
+                    <ul id="results"></ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main style="padding-top: 50px; padding-bottom: 50px">
+        <div style="width:800px; height: 500px;" id="map"></div>
+        <script src="google-map.js"></script>
+    </main>
+
+    <footer>
+        <p><strong>CONTACT US</strong></p>
+        <div class="footer-left">
+            <p>TEL NO: 09-9202418</p>
+            <p>EMAIL: cfseventhub@iium.edu.my</p>
+        </div>
+
+        <div class="footer-right">
+            <a href="https://www.instagram.com/" target="_blank">
+            <img src="images/instagram.png" alt="Instagram" width="30" /></a>
+            <a href="https://www.tiktok.com/" target="_blank">
+            <img src="images/tiktokpic.png" alt="TikTok" width="30" /></a>
+            <a href="https://www.facebook.com/login.php" target="_blank">
+            <img src="images/fbpic.png" alt="Facebook" width="30" /></a>
+        </div>
+
+        <p class="copyright">© Copyright 2025 CFS Event Hub Sdn Bhd 195901000261 (3609-M). All Rights Reserved</p>
+    </footer>
+</body>
+</html>
