@@ -1,4 +1,95 @@
     const events = {
+  denms25:{
+        title: "DENMS FINANCIAL LITERACY WEEK 2025",
+        date: "11-13 JUNE 2025",
+        time: "8.00 AM - 10.00 PM",
+        venue: "KHAWARIZMI HALL & AJ PARKING LOT",
+        organiser: "ENMS DEPARTMENT",
+        image: "images/denms25.jpg",
+        contact: "Br. Adib: 019-305 3320, Sr. Syazanin: 016-222 5872, Br. Ziqry: 011-58893531",
+        note: "-"
+      },
+  qurban25:{
+        title: "PROG IBADAH QURBAN 25/14446H",
+        date: "17 JUNE 2025",
+        time: "7.00 AM - 5.00 PM",
+        venue: "MASJID CFS IIUM",
+        organiser: "I-MASJID CFS IIUM",
+        image: "images/qurban25.jpg",
+        contact: "Br. Adib: 019-305 3320, Sr. Syazanin: 016-222 5872, Br. Ziqry: 011-58893531",
+        note: "-"
+      },
+  brLeague:{
+        title: "BROTHERHOOD LEAGUE",
+        date: "18 JUNE 2025",
+        time: "8.00 AM - 10.00 PM",
+        venue: "STADIUM CFS",
+        organiser: "MAHALLAH BIRUNI X AISYAH X ZAHRAWI",
+        image: "images/brLeague.jpg",
+        contact: "Br. Adib: 019-305 3320, Br. Ziqry: 011-58893531",
+        note: "-"
+      },
+  brGotTalent:{
+        title: "BROTHERS GOT TALENT",
+        date: "26 MAY 2025",
+        time: "8.00 AM - 11.00 PM",
+        venue: "KHAWARIZMI HALL",
+        organiser: "MAHALLAH BIRUNI X AISYAH X ZAHRAWI",
+        image: "images/brGotTalent.jpg",
+        contact: "Br. Adib: 019-305 3320,Br. Ziqry: 011-58893531",
+        note: "-"
+      },
+  guardianEarth:{
+        title: "GUARDIANS OF THE EARTH",
+        date: "31 MAY 2025",
+        time: "10.00 AM - 2.00 PM",
+        venue: "MPR UMAMAH",
+        organiser: "MAHALLAH UMAMAHT",
+        image: "images/guardian-earth.jpg",
+        contact: "Br. Adib: 019-305 3320, Sr. Syazanin: 016-222 5872, Br. Ziqry: 011-58893531",
+        note: "-"
+      },
+  demns:{
+        title: "DENMS ENTREPRENEURIAL DAY",
+        date: "30-31 MAY 2025",
+        time: "9.00 AM - 10.00 PM",
+        venue: "KHAWARIZMI HALL",
+        organiser: "ENMS DEPARTMENT",
+        image: "images/demns.jpg",
+        contact: "Br. Adib: 019-305 3320, Sr. Syazanin: 016-222 5872, Br. Ziqry: 011-58893531",
+        note: "-"
+      },
+  agdIntechss:{
+        title: "AGD INTECHSS",
+        date: "14 JUNE 2025",
+        time: "6.20 PM - 11.00 PM",
+        venue: "DSH BANQUET HALL",
+        organiser: "INTECHSS",
+        image: "images/agdIntechss.jpg",
+        contact: "Br. Adib: 019-305 3320, Sr. Syazanin: 016-222 5872, Br. Ziqry: 011-58893531",
+        note: "-"
+      },
+  mathClinic:{
+        title: "MATH CLINIC",
+        date: "11-13 JUNE 2025",
+        time: "9.00 AM - 10.00 PM",
+        venue: "LECTURER HALL 2",
+        organiser: "DEPT MATH & PRESS",
+        image: "images/mathClinic.jpg",
+        contact: "Br. Adib: 019-305 3320, Sr. Syazanin: 016-222 5872, Br. Ziqry: 011-58893531",
+        note: "-"
+      },
+  couchcalb:{
+        title: "COUCH & CALB",
+        date: "17 JULY 2025",
+        time: "7.00 PM - 11.00 PM",
+        venue: "MPR UMAMAH",
+        organiser: "MAHALLAH UMAMAH",
+        image: "images/couch&calb.jpg",
+        contact: "Br. Adib: 019-305 3320, Sr. Syazanin: 016-222 5872, Br. Ziqry: 011-58893531",
+        note: "-"
+      },  
+        
   murattal: {
     title: "MURATTAL 7 TARANNUM",
     date: "18 May 2025",
@@ -243,7 +334,7 @@
     organiser: "MELEX",
     image: "images/lexTheatre.jpg",
     contact: "019-3053620 (Br Aiman),  011-58893531 (Br Ziqry)",
-    note: "Important !!! Do collect your ticket by 10 may 2025 at student centre. Do bring your food or snacks to enjoy the theatre."
+    note: "Important !!! Do collect your ticket by 10 may 2025 at student centre."
   },
   LEXFLIX: {
     title: "LEX-FLIX",
@@ -253,7 +344,7 @@
     organiser: "MELEX",
     image: "images/LEX-FLIX.jpg",
     contact: "019-3053620 (Br Abu),  011-58893531 (Br Waie)",
-    note: "Do bring your food or popcorn to enjoy the movie."
+    note: "- Do bring your food or popcorn to enjoy the movie."
   },
   lextalk: {
     title: "LEX-TALK",
@@ -263,7 +354,7 @@
     organiser: "MELEX",
     image: "images/lex-talk.png",
     contact: "019-3053620 (Br Jungwon),  011-58893531 (Br Jay)",
-    note: "-"
+    note: "Do bring your food or snacks to enjoy the theatre."
   },
 };
     
