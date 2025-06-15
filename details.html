@@ -15,34 +15,41 @@
 <body>
 
   <header>
-    <div class="nav-left">
-      <nav class="site-menu">
-    <ul class="menu">
-      <li><a href="#">=</a>
-        <ul class="sub-menu">
-          <li><a href="aboutus.html">TEAM</a></li>
-          <li><a href="#">PROFILE</a></li>
-          <li><a href="#">PREFERENCES</a></li>
-          <li><a href="admin.html">ADMIN</a></li>
-          <li><a href="login.html">LOG OUT</a></li>
-        </ul>
-      </li>
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="mahallah.html">MAHALLAH</a></li>
-    
-      <li><a href="ABS.html">SOCIETY</a></li>
-      <li><a href="clubs.html">CLUB</a></li>
-    </ul>
-  </nav>
-    </div>
-    <div class="nav-center">
-      <h1>CFS EVENT HUB</h1>
-    </div>
-
-    <div class="nav-right">
-      <a href="login.html"><button>LOGIN</button></a>
-    </div>
-  </header>
+        <div class="nav-left">
+            <nav class="site-menu">
+                <ul class="menu">
+                    <li><a href="#">=</a>
+                        <ul class="sub-menu">
+                            <li><a href="aboutus.html">TEAM</a></li>
+                            <li><a href="Profile.html">PROFILE</a></li>
+                            <li><a href="maps.html">LOCATIONS</a></li>
+                            <li><a href="admin.html">ADMIN</a></li>
+                            <li><a href="login.html">LOG OUT</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="mahallah.html">MAHALLAH</a></li>
+                    <li><a href="ABS.html">SOCIETY</a></li>
+                    <li><a href="clubs.html">CLUB</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="nav-center">
+            <h1>CFS EVENT HUB</h1>
+        </div>
+        <div class="nav-right">
+            <div class="filter">
+                <div class="search-container">
+                    <input type="search" id="searchbox" placeholder="Search events...">
+                </div>
+            </div>
+            <div class="results-wrapper">
+                <div class="results-card" id="resultsCard">
+                    <ul id="results"></ul>
+                </div>
+            </div>
+        </div>
+    </header>
   <main>
    
       <section class="media-section">
@@ -92,5 +99,6 @@
 
   </footer>
   <script src="details.js"></script>
+  <script src="javascript.js"></script>
 </body>
 </html>
