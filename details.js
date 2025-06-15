@@ -82,8 +82,8 @@
     contact: "019-3053320 (Br Adib),  011-58893531 (Br Ziqry)",
     note: "-"
   },
- 
-  // Add more...
+
+//mahallah
    MasyitahExplorer: {
     title: "MASYITAH THE EXPLORER",
     date: "18 May 2025",
@@ -170,52 +170,58 @@
   //Society
   roboticCompetition: {
     title: "ROBOTIC WORKSHOP",
-    date: "17 May 2025",
-    venue: "Khawarizmi Hall",
+    time:"9.00 AM - 5.00PM",
+    date: "16-18 May 2025",
+    venue: "Exam Hall 2",
     organiser: "IIUM ROBOTIC x INTECHSS x ENGENIUS",
     image: "images/robotic competition.png",
-    contact: "019-3053320 (Br Adib),  011-58893531 (Br Ziqry)",
+    contact: "019-3053320 (Br Mirul),  011-58893531 (Sr Amirah)",
     note: "-"
   },
   codeOfWarsPoster: {
     title: "CODE OF WARS",
-    date: "17 May 2025",
-    venue: "Khawarizmi Hall",
+    time:"9.00 AM - 5.00PM",
+    date: "8 February 2025",
+    venue: "Al-Khalil Computer Lab",
     organiser: "INTECHSS",
     image: "images/code of wars poster.jpg",
-    contact: "019-3053320 (Br Adib),  011-58893531 (Br Ziqry)",
+    contact: "019-3053320 (Br Aiman),  011-58893531 (Br Syafiq)",
     note: "-"
   },
   mentorMentee: {
     title: "MENTOR MENTEE",
-    date: "17 May 2025",
-    venue: "Khawarizmi Hall",
+    time:"9.00 AM - 5.00PM",
+    date: "17 January 2025",
+    venue: "Lecture Hall 2",
     organiser: "INTECHSS",
     image: "images/mentor mentee 1.jpg",
-    contact: "019-3053320 (Br Adib),  011-58893531 (Br Ziqry)",
-    note: "-"
+    contact: "019-3053320 (Br Hakimi),  011-58893531 (Sr Syahirah)",
+    note: "Mentor Mentee 1 : Programming 2. || Mentor Mentee 2: Introduction to database."
   },
  medcyplaylist: {
     title: "MEDCY PLAYLIST",
-    date: "17 May 2025",
-    venue: "Khawarizmi Hall",
+    date: "26 April 2025",
+    time:"9.00 AM - 5.00PM",
+    venue: "Exam Hall 1",
     organiser: "MEDCY",
     image: "images/medcyplaylist.jpeg",
-    contact: "019-3053320 (Br Adib),  011-58893531 (Br Ziqry)",
+    contact: "019-3053320 (Br Wan),  011-58893531 (Sr Aina)",
     note: "-"
   },
   codeRedmedcy: {
     title: "MEDCY RESPONSE",
-    date: "17 May 2025",
-    venue: "Khawarizmi Hall",
+    date: "19 April 2025",
+    time:"9.00 AM - 5.00PM",
+    venue: "Exam Hall 1",
     organiser: "MEDCY x RCC",
     image: "images/code red medcy poster.png",
-    contact: "019-3053320 (Br Adib),  011-58893531 (Br Ziqry)",
-    note: "-"
+    contact: "019-3053320 (Br Yassar),  011-58893531 (Br Hadif)",
+    note: "let's learn how to safe people at emergency situation."
   },
   medcytopia: {
     title: "MEDCYTOPIA",
     date: "5 OCTOBER 2024",
+    time:"9.00 AM - 5.00PM",
     venue: "Lecture Hall 2",
     organiser: "MEDCY",
     image: "images/medcytopia.png",
@@ -224,30 +230,33 @@
   },
   lexTheatre: {
     title: "LEX-THEATRE",
-    date: "17 May 2025",
-    venue: "Khawarizmi Hall",
+    date: "12 May 2025",
+    time:"9.00 AM - 5.00PM",
+    venue: "Al-Khawarizmi Hall",
     organiser: "MELEX",
     image: "images/lexTheatre.jpg",
     contact: "019-3053620 (Br Aiman),  011-58893531 (Br Ziqry)",
-    note: "-"
+    note: "Important !!! Do collect your ticket by 10 may 2025 at student centre."
   },
   LEXFLIX: {
     title: "LEX-FLIX",
     date: "11 October 2024",
+    time:"9.00 AM - 5.00PM",
     venue: "Lecture Hall 1",
     organiser: "MELEX",
     image: "images/LEX-FLIX.jpg",
-    contact: "019-3053620 (Br Aiman),  011-58893531 (Br Ziqry)",
-    note: "-"
+    contact: "019-3053620 (Br Abu),  011-58893531 (Br Waie)",
+    note: "- Do bring your food or popcorn to enjoy the movie."
   },
   lextheatre: {
     title: "LEX-TALK",
-    date: "29 September 2024",
-    venue: "Khawarizmi Hall",
+    date: "26 April 2025",
+    time:"9.00 AM - 5.00PM",
+    venue: "Exam Hall 1",
     organiser: "MELEX",
     image: "images/lex-talk.png",
-    contact: "019-3053620 (Br Aiman),  011-58893531 (Br Ziqry)",
-    note: "-"
+    contact: "019-3053620 (Br Jungwon),  011-58893531 (Br Jay)",
+    note: "Do bring your food or snacks to enjoy the theatre."
   },
 };
     
