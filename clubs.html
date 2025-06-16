@@ -5,152 +5,178 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Club</title>
 
-   <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
-   <script src="details.js"></script>
-   <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts for styling -->
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Link to external JavaScript (not needed at this moment if using internal script below) -->
+  <script src="details.js"></script>
+
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
+  <!-- Header section with navigation bar -->
   <header>
     <div class="nav-left">
       <nav class="site-menu">
-    <ul class="menu">
-      <li><a href="#">=</a>
-        <ul class="sub-menu">
-          <li><a href="aboutus.html">TEAM</a></li>
-          <li><a href="Profile.html">PROFILE</a></li>
-          <li><a href="maps.html">LOCATIONS</a></li>
-          <li><a href="admin.html">ADMIN</a></li>
-          <li><a href="login.html">LOG OUT</a></li>
+        <ul class="menu">
+          <!-- Dropdown menu for extra pages -->
+          <li><a href="#">=</a>
+            <ul class="sub-menu">
+              <li><a href="aboutus.html">TEAM</a></li>
+              <li><a href="Profile.html">PROFILE</a></li>
+              <li><a href="maps.html">LOCATIONS</a></li>
+              <li><a href="admin.html">ADMIN</a></li>
+              <li><a href="login.html">LOG OUT</a></li>
+            </ul>
+          </li>
+
+          <!-- Main menu items -->
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="mahallah.html">MAHALLAH</a></li>
+          <li><a href="ABS.html">SOCIETY</a></li>
+          <li><a href="clubs.html">CLUB</a></li>
         </ul>
-      </li>
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="mahallah.html">MAHALLAH</a></li>
-    
-      <li><a href="ABS.html">SOCIETY</a></li>
-      <li><a href="clubs.html">CLUB</a></li>
-    </ul>
-  </nav>
+      </nav>
     </div>
+
+    <!-- Website title -->
     <div class="nav-center">
       <h1>CFS EVENT HUB</h1>
     </div>
 
-   <div class="nav-right">
-            <div class="filter">
-                <div class="search-container">
-                    <input type="search" id="searchbox" placeholder="Search events...">
-                </div>
-            </div>
-            <div class="results-wrapper">
-                <div class="results-card" id="resultsCard">
-                    <ul id="results"></ul>
-                </div>
-            </div>
+    <!-- Search bar and search result wrapper -->
+    <div class="nav-right">
+      <div class="filter">
+        <div class="search-container">
+          <input type="search" id="searchbox" placeholder="Search events...">
         </div>
-    
+      </div>
+      <div class="results-wrapper">
+        <div class="results-card" id="resultsCard">
+          <ul id="results"></ul>
+        </div>
+      </div>
+    </div>
   </header>
 
+  <!-- Main content section starts here -->
   <main>
+
+    <!-- I-MASJID Section -->
     <h2>I-MASJID</h2>
+    <section class="event-list">
+      
+      <!-- Murattal 7 Tarannum event card -->
+      <div class="event-card">
+        <img src="images/murattal7.jpg" alt="Murattal 7 Tarannum">
+        <h3>MURATTAL 7 TARANNUM</h3>
+        <p>DATE: 18 May 2025</p>
+        <p>VENUE: Masjid CFS IIUM</p>
+        <br>
+        <!-- Details button triggers openDetails() function -->
+        <button class="btn-details" onclick="openDetails('murattal')"><b>DETAILS</b></button>
+      </div>
 
-  <section class="event-list">
-    <div class="event-card">
-      <img src="images/murattal7.jpg" alt="Murattal 7 Tarannum">
-          <h3>MURATTAL 7 TARANNUM</h3>
-          <p>DATE: 18 May 2025</p>
-          <p>VENUE: Masjid CFS IIUM</p>
-          <br>
-          <button class="btn-details" onclick="openDetails('murattal')"><b>DETAILS</b></button>
-    </div>
+      <!-- Dakwah Trail event card -->
+      <div class="event-card">
+        <img src="images/Dakwah Trail.jpg" alt="Dakwah Trail">
+        <h3>DAKWAH TRAIL</h3>
+        <p>DATE: 25 May 2025</p>
+        <p>VENUE: Pelindung Hill</p>
+        <br>
+        <button class="btn-details" onclick="openDetails('dakwah')"><b>DETAILS</b></button>
+      </div>
 
-    <div class="event-card">
-          <img src="images/Dakwah Trail.jpg" alt="Dakwah Trail">
-          <h3>DAKWAH TRAIL</h3>
-          <p>DATE: 25 May 2025</p>
-          <p>VENUE: Pelindung Hill</p>
-          <br>
-         <button class="btn-details" onclick="openDetails('dakwah')"><b>DETAILS</b></button>
-         
-    </div>
+      <!-- Qiamullail event card -->
+      <div class="event-card">
+        <img src="images/Qiamullail.jpg" alt="Qiamullail">
+        <h3>QIAMULLAIL</h3>
+        <p>DATE: 9 May 2025</p>
+        <p>VENUE: Masjid CFS IIUM</p>
+        <br>
+        <button class="btn-details" onclick="openDetails('qiam')"><b>DETAILS</b></button>
+      </div>
 
-     <div class="event-card">
-          <img src="images/Qiamullail.jpg" alt="Qiamullail">
-          <h3>QIAMULLAIL</h3>
-          <p>DATE: 9 May 2025</p>
-          <p>VENUE: Masjid CFS IIUM</p>
-          <br>
-          <button class="btn-details" onclick="openDetails('qiam')"><b>DETAILS</b></button>
-          
-    </div>
-  </section>
-
-  <h2>PEERS</h2>
-  
-  <section class="event-list">
-    <div class="event-card">
-      <img src="images/HarithR.jpg" alt="Your Path Your Rule">
-          <h3>YOUR PATH, YOUR RULE</h3>
-          <p>DATE: 22 April 2025</p>
-          <p>VENUE: Al-Khawarizmi Hall</p>
-          <br>
-         <button class="btn-details" onclick="openDetails('hr')"><b>DETAILS</b></button>
-
-    </div>
-        
-        <div class="event-card">
-          <img src="images/CareerExhibition.jpg" alt="Career Exhibition">
-          <h3>CAREER EXHIBITION</h3>
-          <p>DATE: 21–22 April 2025</p>
-          <p>VENUE: Multipurpose Room</p>
-          <br>
-          <button class="btn-details" onclick="openDetails('careerExhib')"><b>DETAILS</b></button>
-          
-        </div>
-        
-        <div class="event-card">
-          <img src="images/Purple walk.jpg" alt="Purple Walk">
-          <h3>PURPLE WALK</h3>
-          <p>DATE: 19 October 2024</p>
-          <p>VENUE: Student Centre</p>
-          <br>
-          <button class="btn-details" onclick="openDetails('purpleWalk')"><b>DETAILS</b></button>
-          
-        </div>
-    </section> 
-
-    <h2>CITRA</h2>
-      <section class="event-list">
-        <div class="event-card">
-          <img src="images/Citra The End.jpg" alt="Citra The End">
-          <h3>CITRA: THE END</h3>
-          <p>DATE: 17 May 2025</p>
-          <p>VENUE: Khawarizmi Hall</p>
-          <br>
-          <button class="btn-details" onclick="openDetails('citraEnd')"><b>DETAILS</b></button> 
-          
-        </div>
-        <div class="event-card">
-          <img src="images/citraditional.jpg" alt="Citraditional">
-          <h3>CITRADITIONAL</h3>
-          <p>DATE: 2 February 2025</p>
-          <p>VENUE: Khawarizmi Hall</p>
-          <br>
-          <button class="btn-details" onclick="openDetails('citraditional')"><b>DETAILS</b></button>
-          
-        </div>
-        <div class="event-card">
-          <img src="images/Ladies Night.jpg" alt="Ladies' Night">
-          <h3>LADIES' NIGHT</h3>
-          <p>DATE: 25 March 2025</p>
-          <p>VENUE: Khawarizmi Hall</p>
-          <br>
-          <button class="btn-details" onclick="openDetails('ladiesNight')"><b>DETAILS</b></button>
-          
-        </div>
     </section>
+
+    <!-- PEERS Section -->
+    <h2>PEERS</h2>
+    <section class="event-list">
+      
+      <!-- Your Path, Your Rule event -->
+      <div class="event-card">
+        <img src="images/HarithR.jpg" alt="Your Path Your Rule">
+        <h3>YOUR PATH, YOUR RULE</h3>
+        <p>DATE: 22 April 2025</p>
+        <p>VENUE: Al-Khawarizmi Hall</p>
+        <br>
+        <button class="btn-details" onclick="openDetails('hr')"><b>DETAILS</b></button>
+      </div>
+      
+      <!-- Career Exhibition event -->
+      <div class="event-card">
+        <img src="images/CareerExhibition.jpg" alt="Career Exhibition">
+        <h3>CAREER EXHIBITION</h3>
+        <p>DATE: 21–22 April 2025</p>
+        <p>VENUE: Multipurpose Room</p>
+        <br>
+        <button class="btn-details" onclick="openDetails('careerExhib')"><b>DETAILS</b></button>
+      </div>
+
+      <!-- Purple Walk event -->
+      <div class="event-card">
+        <img src="images/Purple walk.jpg" alt="Purple Walk">
+        <h3>PURPLE WALK</h3>
+        <p>DATE: 19 October 2024</p>
+        <p>VENUE: Student Centre</p>
+        <br>
+        <button class="btn-details" onclick="openDetails('purpleWalk')"><b>DETAILS</b></button>
+      </div>
+
+    </section>
+
+    <!-- CITRA Section -->
+    <h2>CITRA</h2>
+    <section class="event-list">
+      
+      <!-- Citra: The End event -->
+      <div class="event-card">
+        <img src="images/Citra The End.jpg" alt="Citra The End">
+        <h3>CITRA: THE END</h3>
+        <p>DATE: 17 May 2025</p>
+        <p>VENUE: Khawarizmi Hall</p>
+        <br>
+        <button class="btn-details" onclick="openDetails('citraEnd')"><b>DETAILS</b></button>
+      </div>
+
+      <!-- Citraditional event -->
+      <div class="event-card">
+        <img src="images/citraditional.jpg" alt="Citraditional">
+        <h3>CITRADITIONAL</h3>
+        <p>DATE: 2 February 2025</p>
+        <p>VENUE: Khawarizmi Hall</p>
+        <br>
+        <button class="btn-details" onclick="openDetails('citraditional')"><b>DETAILS</b></button>
+      </div>
+
+      <!-- Ladies Night event -->
+      <div class="event-card">
+        <img src="images/Ladies Night.jpg" alt="Ladies' Night">
+        <h3>LADIES' NIGHT</h3>
+        <p>DATE: 25 March 2025</p>
+        <p>VENUE: Khawarizmi Hall</p>
+        <br>
+        <button class="btn-details" onclick="openDetails('ladiesNight')"><b>DETAILS</b></button>
+      </div>
+
+    </section>
+
   </main>
 
+  <!-- Footer section -->
   <footer>
     <p><strong>CONTACT US</strong></p>
     <div class="footer-left">
@@ -159,6 +185,7 @@
     </div>
 
     <div class="footer-right">
+      <!-- Social media links -->
       <a href="https://www.instagram.com/" target="_blank">
         <img src="images/instagram.png" alt="Instagram" width="30" />
       </a>
@@ -169,15 +196,26 @@
         <img src="images/fbpic.png" alt="Facebook" width="30" />
       </a>
     </div>
-    <p class="copyright">© Copyright 2025 CFS Event Hub Sdn Bhd 195901000261 (3609-M). All Rights Reserved</p>
 
+    <p class="copyright">
+      © Copyright 2025 CFS Event Hub Sdn Bhd 195901000261 (3609-M). All Rights Reserved
+    </p>
   </footer>
- <script src="javascript.js"></script>
-<script>
+
+  <!-- External JavaScript file -->
+  <script src="javascript.js"></script>
+
+  <!-- Inline JavaScript for handling event details navigation -->
+  <script>
+    // Function to handle Details button click
     function openDetails(id) {
-  localStorage.setItem('selectedEvent', id);
-  window.open('details.html', '_blank') ;
-}
+      // Save the selected event ID into localStorage
+      localStorage.setItem('selectedEvent', id);
+      
+      // Open the details.html page in a new browser tab
+      window.open('details.html', '_blank');
+    }
   </script>
+
 </body>
 </html>
