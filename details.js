@@ -1,4 +1,5 @@
     const events = {
+  //Main Page
   denms25:{
         title: "DENMS FINANCIAL LITERACY WEEK 2025",
         date: "11-13 JUNE 2025",
@@ -44,7 +45,7 @@
         date: "31 MAY 2025",
         time: "10.00 AM - 2.00 PM",
         venue: "MPR UMAMAH",
-        organiser: "MAHALLAH UMAMAHT",
+        organiser: "MAHALLAH UMAMAH",
         image: "images/guardian-earth.jpg",
         contact: "Br. Adib: 019-305 3320, Sr. Syazanin: 016-222 5872, Br. Ziqry: 011-58893531",
         note: "-"
@@ -89,7 +90,8 @@
         contact: "Br. Adib: 019-305 3320, Sr. Syazanin: 016-222 5872, Br. Ziqry: 011-58893531",
         note: "-"
       },  
-        
+
+  //Club      
   murattal: {
     title: "MURATTAL 7 TARANNUM",
     date: "18 May 2025",
@@ -358,28 +360,50 @@
   },
 };
     
+// This function runs automatically when the webpage has fully loaded
 window.onload = function () {
+  
+  // Retrieve the event ID from the browser's local storage
+  // 'selectedEvent' must be stored earlier somewhere in the app
   const id = localStorage.getItem('selectedEvent');
-  const event = events[id];
-  const contactList = event.contact.split(',').map(contact => `<li>${contact.trim()}</li>`).join('');
 
+  // Retrieve the event object from a pre-defined events object using the ID
+  const event = events[id];
+
+  // If event exists, proceed to update the webpage with event details
   if (event) {
+    
+    // Update the poster image source with the event image
     document.querySelector(".poster img").src = event.image;
+
+    // Update the browser tab title with the event title
     document.title = event.title;
+
+    // Select all <li> elements inside the .details container
     const details = document.querySelectorAll(".details li");
+
+    // Update each list item with corresponding event data
     details[0].innerHTML = `<strong>DATE:</strong> ${event.date}`;
-    details[1].innerHTML = `<strong>TIME:</strong> ${event.time}`; // if available
+    details[1].innerHTML = `<strong>TIME:</strong> ${event.time}`;
     details[2].innerHTML = `<strong>VENUE:</strong> ${event.venue}`;
     details[3].innerHTML = `<strong>ORGANISER:</strong> ${event.organiser}`;
-    // Format contact list as bullet points
+
+    // Format contact information: split by commas, trim spaces, and wrap each contact in <li>
     const contactListHTML = event.contact
-      .split(',')
-      .map(contact => `<li>${contact.trim()}</li>`)
-      .join('');
+      .split(',') // split contacts into array
+      .map(contact => `<li>${contact.trim()}</li>`) // format each contact
+      .join(''); // join them back into one string
+
+    // Insert the formatted contact list into the 5th list item with additional bullet list styling
     details[4].innerHTML = `<strong>CONTACT:</strong><ul style="margin: 5px 0 0 20px;">${contactListHTML}</ul>`;
+
+    // Update the notes section
     details[5].innerHTML = `<strong>NOTE:</strong> ${event.note}`;
+  
   } else {
+    // If no valid event found, display an error message on the page
     document.body.innerHTML = "<h2>No event selected.</h2>";
   }
 };
+
 
