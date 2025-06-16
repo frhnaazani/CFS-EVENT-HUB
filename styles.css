@@ -602,3 +602,16 @@ input, select, textarea{
   flex-direction: column;
   gap: 0;
 }
+
+/*maps*/
+.location{
+  padding-top: 30px; 
+  padding-bottom: 50px; 
+  display: flex; 
+  justify-content: center; 
+}
+
+#map{
+  width:800px; 
+  height: 500px;
+}
