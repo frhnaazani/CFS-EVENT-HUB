@@ -106,6 +106,7 @@
   dakwah:{
     title: "DAKWAH TRAIL",
     date: "25 May 2025",
+    time:"9.00 AM - 5.00PM",
     venue: "Pelindung Hill",
     organiser: "I-MASJID & ENC",
     image: "images/Dakwah Trail.jpg",
@@ -115,6 +116,7 @@
   qiam: {
     title: "QIAMULLAIL",
     date: "9 May 2025",
+    time:"4.30 AM - 5.15   AM",
     venue: "Masjid CFS IIUM",
     organiser: "I-MASJID",
     image: "images/Qiamullail.jpg",
@@ -124,6 +126,7 @@
   hr: {
     title: "YOUR PATH, YOUR RULE",
     date: "22 April 2025",
+    time:"8.30 AM - 10.00PM",
     venue: " Al-Khawarizmi Hall",
     organiser: "SCC X PEERS",
     image: "images/HarithR.jpg",
@@ -133,6 +136,7 @@
   careerExhib: {
     title: "CAREER EXHIBITION",
     date: "21-22 April 2025",
+    time:"8.00 AM - 5.00PM",
     venue: "Multipurpose Room",
     organiser:"MEDCY X AMETHYSS X INTECHSS X ENGENIUS X MELEX",
     image: "images/CareerExhibition.jpg",
@@ -142,6 +146,7 @@
   purpleWalk: {
     title: "PURPLE WALK",
     date: "9 May 2025",
+    time:"9.00 AM - 5.00PM",
     venue: "Masjid CFS IIUM",
     organiser: "PEERS",
     image: "images/Purple walk.jpg",
@@ -151,6 +156,7 @@
   citraEnd: {
     title: "CITRA: THE END",
     date: "17 May 2025",
+    time:"8.00 PM - 11.00PM",
     venue: "Khawarizmi Hall",
     organiser: "CITRA",
     image: "images/Citra The End.jpg",
@@ -160,6 +166,7 @@
   citraditional: {
     title: "CITRADITIONAL",
     date: "2 February 2025",
+    time:"8.00 PM - 11.00PM",
     venue: "Khawarizmi Hall",
     organiser: "CITRA",
     image: "images/citraditional.jpg",
@@ -169,6 +176,7 @@
   ladiesNight: {
     title: "LADIES' NIGHT",
     date: "25 March 2025",
+    time:"8.00 PM - 11.00PM",
     venue: "Khawarizmi Hall",
     organiser: "CITRA",
     image: "images/Ladies Night.jpg",
@@ -405,5 +413,4 @@ window.onload = function () {
     document.body.innerHTML = "<h2>No event selected.</h2>";
   }
 };
-
 
