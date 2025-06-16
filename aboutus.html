@@ -5,86 +5,106 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About Us</title>
 
+  <!-- Google Fonts for styling -->
   <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
 
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
+  <!-- Header section with navigation -->
   <header>
     <div class="nav-left">
       <nav class="site-menu">
-    <ul class="menu">
-      <li><a href="#">=</a>
-        <ul class="sub-menu">
-          <li><a href="aboutus.html">TEAM</a></li>
-          <li><a href="Profile.html">PROFILE</a></li>
-          <li><a href="maps.html">LOCATIONS</a></li>
-          <li><a href="admin.html">ADMIN</a></li>
-          <li><a href="login.html">LOG OUT</a></li>
+        <ul class="menu">
+          <!-- Dropdown sub-menu -->
+          <li><a href="#">=</a>
+            <ul class="sub-menu">
+              <li><a href="aboutus.html">TEAM</a></li>
+              <li><a href="Profile.html">PROFILE</a></li>
+              <li><a href="maps.html">LOCATIONS</a></li>
+              <li><a href="admin.html">ADMIN</a></li>
+              <li><a href="login.html">LOG OUT</a></li>
+            </ul>
+          </li>
+
+          <!-- Main navigation menu -->
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="mahallah.html">MAHALLAH</a></li>
+          <li><a href="ABS.html">SOCIETY</a></li>
+          <li><a href="clubs.html">CLUB</a></li>
         </ul>
-      </li>
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="mahallah.html">MAHALLAH</a></li>
-    
-      <li><a href="ABS.html">SOCIETY</a></li>
-      <li><a href="clubs.html">CLUB</a></li>
-    </ul>
-  </nav>
+      </nav>
     </div>
+
+    <!-- Website title centered -->
     <div class="nav-center">
       <h1>CFS EVENT HUB</h1>
     </div>
 
-   <div class="nav-right">
-            <div class="filter">
-                <div class="search-container">
-                    <input type="search" id="searchbox" placeholder="Search events...">
-                </div>
-            </div>
-            <div class="results-wrapper">
-                <div class="results-card" id="resultsCard">
-                    <ul id="results"></ul>
-                </div>
-            </div>
+    <!-- Search box on the right -->
+    <div class="nav-right">
+      <div class="filter">
+        <div class="search-container">
+          <input type="search" id="searchbox" placeholder="Search events...">
         </div>
+      </div>
+      <div class="results-wrapper">
+        <div class="results-card" id="resultsCard">
+          <ul id="results"></ul>
+        </div>
+      </div>
+    </div>
   </header>
 
+  <!-- Main content area -->
   <main>
     <h2>MEMBERS</h2>
 
-  <section class="team">
-    <div class="members">
-      <img src="images/ishapic.jpg" alt="Nurfarisha">
-      <p><b>Name:</b> Nurfarisha</p>
-      <p><b>Matric No:</b> 247024</p>
-      <p><b>Task:</b> Mahallah, Log in page</p>
-    </div>
+    <!-- Team members section -->
+    <section class="team">
 
-    <div class="members">
-      <img src="images/nurinpic.jpg" alt="Sharifah Nurin Izzati">
-       <p><b>Name:</b> Sharifah Nurin Izzati</p>
-       <p><b>Matric No:</b> 247992</p>
-       <p><b>Task:</b> Clubs, About Us page</p>
-    </div>
+      <!-- Member 1 -->
+      <div class="members">
+        <img src="images/ishapic.jpg" alt="Nurfarisha">
+        <p><b>Name:</b> Nurfarisha</p>
+        <p><b>Matric No:</b> 247024</p>
+        <p><b>Task:</b> Mahallah, Log in page</p>
+      </div>
 
-    <div class="members">
-      <img src="images/farhanapic.jpg" alt="Nurul Farhana">
-       <p><b>Name:</b> Nurul Farhana</p>
-      <p><b>Matric No:</b> 247418</p>
-      <p><b>Task:</b> Society, Admin page</p>
-    </div>
-  </section>
+      <!-- Member 2 -->
+      <div class="members">
+        <img src="images/nurinpic.jpg" alt="Sharifah Nurin Izzati">
+        <p><b>Name:</b> Sharifah Nurin Izzati</p>
+        <p><b>Matric No:</b> 247992</p>
+        <p><b>Task:</b> Clubs, About Us page</p>
+      </div>
+
+      <!-- Member 3 -->
+      <div class="members">
+        <img src="images/farhanapic.jpg" alt="Nurul Farhana">
+        <p><b>Name:</b> Nurul Farhana</p>
+        <p><b>Matric No:</b> 247418</p>
+        <p><b>Task:</b> Society, Admin page</p>
+      </div>
+
+    </section>
   </main>
 
+  <!-- Footer section -->
   <footer>
     <p><strong>CONTACT US</strong></p>
+
+    <!-- Contact info -->
     <div class="footer-left">
       <p>TEL NO: 09-9202418</p>
       <p>EMAIL: cfseventhub@iium.edu.my</p>
     </div>
 
+    <!-- Social media icons -->
     <div class="footer-right">
       <a href="https://www.instagram.com/" target="_blank">
         <img src="images/instagram.png" alt="Instagram" width="30" />
@@ -96,9 +116,15 @@
         <img src="images/fbpic.png" alt="Facebook" width="30" />
       </a>
     </div>
-    <p class="copyright">© Copyright 2025 CFS Event Hub Sdn Bhd 195901000261 (3609-M). All Rights Reserved</p>
 
+    <!-- Copyright text -->
+    <p class="copyright">
+      © Copyright 2025 CFS Event Hub Sdn Bhd 195901000261 (3609-M). All Rights Reserved
+    </p>
   </footer>
+
+  <!-- External JavaScript file -->
   <script src="javascript.js"></script>
+
 </body>
 </html>
